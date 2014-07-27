@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p><img alt=\"\" src=\"/sites/default/files/gct2014/1.jpg\" /></p>\n", 
+        "value": "<p><img alt=\"\" src=\"/sites/default/files/gct2014/1.jpg\" style=\"height:117px; width:321px\" /></p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "121", 
+  "sticky": "0", 
+  "revision_timestamp": "1405314774", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "2"
+      }, 
+      {
+        "tid": "18"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "a/b=20", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "121", 
+  "cid": "0", 
+  "last_comment_timestamp": "1399800864", 
+  "path": "http://gct2014-dev.scaret.in/node/121", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>A</p>\n", 
+        "value": "A", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>C</p>\n", 
+        "value": "C", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>B</p>\n", 
+        "value": "B", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>D</p>\n", 
+        "value": "D", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1399800864", 
+  "changed": "1405314774", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p><img alt=\"\" src=\"/sites/default/files/gct2014/2.jpg\" /></p>\n", 
+        "value": "<p><img alt=\"\" src=\"/sites/default/files/gct2014/2.jpg\" style=\"height:135px; width:378px\" /></p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "D"
+      }
+    ]
+  }
+}

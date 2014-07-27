@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>某次认知能力测试，刘强得了118分，蒋明的得分比王丽高，张华和刘强的得分之和大于蒋明和王丽的得分之和，刘强的得分比周梅高：此次测试120分以上为优秀，五人之中有两人没有达到优秀。<br />
+根据以上信息，以下哪项是上述五人在此次测试中得分由高到低的排列？</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">张华、王丽、周梅、蒋明、刘强</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">张华、蒋明、王丽、刘强、周梅</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">张华、蒋明、刘强、王丽、周梅</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">蒋明、张华、王丽、刘强、周梅</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：B</p>
+              <div>分析推理类。由题干信息得，①刘强得118分；②蒋明>王丽；③张华+刘强>蒋明+王丽；④刘强>周梅；⑤两人分数小于120分，三人分数在120分以上。
+由①④⑤得，刘强>周梅，且分数都小于120分，而蒋明、张华、王丽分数都在120分以上，排除A、C；又由③得，张华分数最高，再由②得，张华>蒋明>王丽>刘强>周梅，即B项。</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

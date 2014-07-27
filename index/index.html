@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <!-- 这里是首页，是用户进入的第一个页面。-->
+  <!-- 假定用户总是从这里进入，并且用户没有别的入口-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script src="../timuLoader.js"></script>
+  </head>
+  <body>
+    <div data-role="header" data-theme="a"><a href="#mypanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-grid">菜单</a>
+      <h1 id="title">GCT2014</h1><a href="#" class="ui-shadow-icon ui-btn ui-shadow ui-corner-all ui-icon-star ui-btn-icon-right ui-btn-icon-notext">菜单</a>
+    </div>
+    <div id="mypanel" data-role="panel" data-display="overlay" data-theme="b">
+      <ul data-role="listview">
+        <li><a href="../index/index.html">首页</a></li>
+        <li><a href="../tiku/index.html">GCT题库</a></li>
+        <li><a href="../tiku/index.html">组卷测试</a></li>
+        <li><a href="../tiku/index.html">错题本</a></li>
+        <li><a href="../tiku/index.html">收藏夹</a></li>
+      </ul>
+    </div>
+    <div id="welcome" data-role="page">欢迎来到GCT题库！</div>
+  </body>
+  <script src="../main.js"></script>
+</html>
+<!--
+include header.jade
+body
+  div(data-role="page")
+    div(data-role="header")
+      a.ui-btn-left.ui-btn.ui-btn-inline.ui-mini.ui-corner-all.ui-btn-icon-left.ui-icon-grid(href="#mypanel") 菜单
+      h1 GCT2014
+    div.ui-content(data-role="main")
+      ul.ui-listview-outer(data-role="listview")
+        -for(var i in menu)
+            li(data-role="collapsible",data-iconpos="right",data-shadow="false",data-corners="false")
+              h2= menu[i].name
+              -for(var j in menu[i].children)
+                ul(data-role="listview",data-shadow="false",data-inset="true",data-corners="false")
+                  li(id="zsd_"+menu[i].children[j].tid)
+                    a(tid=menu[i].children[j].tid,href="javascript:gotoZSD(" +menu[i].tid + "," + menu[i].children[j].tid + ")",class="zhishidian",zhishidian=menu[i].children[j].tid)= menu[i].children[j].name
+                      |<span class="ui-li-count">0</span>
+                      
+  script(src="main.js")
+-->

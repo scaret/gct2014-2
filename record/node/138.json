@@ -1,0 +1,153 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>The word \" twin\" in the first sentence means_______.</p>\n", 
+        "value": "<p>The word \" twin\" in the first sentence means_______.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "138", 
+  "sticky": "0", 
+  "revision_timestamp": "1405326197", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "9"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "The word \" twin\" in the first sentence", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "138", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383885", 
+  "path": "http://gct2014-dev.scaret.in/node/138", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>a brother or sister of step mother or father</p>\n", 
+        "value": "a brother or sister of step mother or father", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>an adopted child</p>\n", 
+        "value": "an adopted child", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>either of two children born together of the same mother</p>\n", 
+        "value": "either of two children born together of the same mother", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>a deserted child</p>\n", 
+        "value": "a deserted child", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383885", 
+  "changed": "1405326197", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u8bcd\u6c47\u9898\u7684\u5173\u952e\u662f\u786e\u8ba4\u8fd9\u4e2a\u5355\u8bcd\u5728\u6587\u7ae0\u4e2d\u51fa\u73b0\u7684\u5730\u65b9\uff08\u7b2c1\u4e2a\u53e5\u5b50\uff09\uff0c\u518d\u627e\u5230\u4e0a\u4e0b\u6587\u7684\u8bcd\u4e49\u7ebf\u7d22\u201c\u2026the two planets are so like each other in size\u201d\uff0c\u4e24\u8005\u5f88\u76f8\u4f3c\uff0c\u7b26\u5408\u201c\u53cc\u80de\u80ce\u201d\u7684\u7279\u70b9\u3002</p>\n", 
+        "value": "<p>\u672c\u8bcd\u6c47\u9898\u7684\u5173\u952e\u662f\u786e\u8ba4\u8fd9\u4e2a\u5355\u8bcd\u5728\u6587\u7ae0\u4e2d\u51fa\u73b0\u7684\u5730\u65b9\uff08\u7b2c1\u4e2a\u53e5\u5b50\uff09\uff0c\u518d\u627e\u5230\u4e0a\u4e0b\u6587\u7684\u8bcd\u4e49\u7ebf\u7d22\u201c\u2026the two planets are so like each other in size\u201d\uff0c\u4e24\u8005\u5f88\u76f8\u4f3c\uff0c\u7b26\u5408\u201c\u53cc\u80de\u80ce\u201d\u7684\u7279\u70b9\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

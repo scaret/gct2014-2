@@ -1,0 +1,22 @@
+[
+  {
+    "machine_name": "tags", 
+    "weight": "0", 
+    "name": "Tags", 
+    "vid": "1", 
+    "hierarchy": "0", 
+    "uri": "http://gct2014-dev.scaret.in/v1/taxonomy_vocabulary/1", 
+    "module": "taxonomy", 
+    "description": "Use tags to group articles on similar topics into categories."
+  }, 
+  {
+    "machine_name": "gct2014", 
+    "weight": "0", 
+    "name": "GCT2014", 
+    "vid": "2", 
+    "hierarchy": "1", 
+    "uri": "http://gct2014-dev.scaret.in/v1/taxonomy_vocabulary/2", 
+    "module": "taxonomy", 
+    "description": "GCT2014\u77e5\u8bc6\u70b9"
+  }
+]

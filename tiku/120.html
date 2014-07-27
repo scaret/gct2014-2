@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>你好</p>
+
+        <form>
+          <fieldset data-role="controlgroup">
+            <legend>选项：</legend>
+          </fieldset>
+          <input id="field_choice_a" type="radio" name="field_choice" value="A" class="input_choice">
+          <label for="field_choice_a" choice="A" class="field_choice">A <p><img alt="" src="../img/gct2014/h_large_EyxC_6166000087072f76.jpg" style="height:200px; width:267px" /></p></label>
+          <input id="field_choice_b" type="radio" name="field_choice" value="B" class="input_choice">
+          <label for="field_choice_b" choice="B" class="field_choice">B 不不不</label>
+          <input id="field_choice_c" type="radio" name="field_choice" value="C" class="input_choice">
+          <label for="field_choice_c" choice="C" class="field_choice">C 出差错</label>
+          <input id="field_choice_d" type="radio" name="field_choice" value="D" class="input_choice">
+          <label for="field_choice_d" choice="D" class="field_choice">D 顶顶顶</label>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：A</p>
+              <div></div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div data-role="footer" data-position="fixed" data-fullscreen="true">
+        <fieldset class="ui-grid-a">
+          <div class="ui-block-a">
+            <button onclick="">上一题</button>
+          </div>
+          <div class="ui-block-b">
+            <button onclick="xiayiti();">下一题</button>
+          </div>
+        </fieldset>
+      </div>
+      <script src="../main_danxuan.js"></script>
+      <script src="../redirect_index.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u79e6\u6c49\u4ee5\u540e\uff0c\u4e2d\u592e\u804c\u5b98\u591a\u4e3a\u4e09\u7701\u516d\u90e8\u5236\uff0c\u5510\u4ee3\u8bd7\u4eba\u675c\u752b\u66fe\u5728______\u4f9b\u804c\uff0c\u800c\u7ba1\u7406\u79d1\u4e3e\u3001\u5b66\u6821\u7b49\u4e8b\u52a1\u7684\u5219 \u662f______\u3002</p>\n", 
+        "value": "<p>\u79e6\u6c49\u4ee5\u540e\uff0c\u4e2d\u592e\u804c\u5b98\u591a\u4e3a\u4e09\u7701\u516d\u90e8\u5236\uff0c\u5510\u4ee3\u8bd7\u4eba\u675c\u752b\u66fe\u5728______\u4f9b\u804c\uff0c\u800c\u7ba1\u7406\u79d1\u4e3e\u3001\u5b66\u6821\u7b49\u4e8b\u52a1\u7684\u5219 \u662f______\u3002</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "23", 
+  "sticky": "0", 
+  "revision_timestamp": "1405307559", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "7"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u79e6\u6c49\u4ee5\u540e\uff0c\u4e2d\u592e\u804c\u5b98\u591a\u4e3a\u4e09\u7701\u516d\u90e8\u5236\uff0c\u5510\u4ee3\u8bd7\u4eba\u675c\u752b", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "23", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397918983", 
+  "path": "http://gct2014-dev.scaret.in/node/23", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>\u5211\u90e8          \u540f\u90e8</p>\n", 
+        "value": "\u5211\u90e8          \u540f\u90e8", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>\u793c\u90e8          \u5de5\u90e8</p>\n", 
+        "value": "\u793c\u90e8          \u5de5\u90e8", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>\u5de5\u90e8          \u793c\u90e8</p>\n", 
+        "value": "\u5de5\u90e8          \u793c\u90e8", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>\u5de5\u90e8          \u540f\u90e8</p>\n", 
+        "value": "\u5de5\u90e8          \u540f\u90e8", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397918983", 
+  "changed": "1405307559", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u8003\u67e5\u4e2d\u56fd\u6587\u5b66\u53f2\u77e5\u8bc6\u3002\u675c\u752b\u6709\u522b\u53f7\u4e3a\u675c\u5de5\u90e8\uff0c\u610f\u4e3a\u675c\u752b\u66fe\u5728\u5de5\u90e8\u4efb\u804c\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u8003\u67e5\u4e2d\u56fd\u6587\u5b66\u53f2\u77e5\u8bc6\u3002\u675c\u752b\u6709\u522b\u53f7\u4e3a\u675c\u5de5\u90e8\uff0c\u610f\u4e3a\u675c\u752b\u66fe\u5728\u5de5\u90e8\u4efb\u804c\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "D"
+      }
+    ]
+  }
+}

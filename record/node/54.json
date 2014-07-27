@@ -1,0 +1,153 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u7b2c\u4e00\u81ea\u7136\u6bb5\u4e2d\u8bf4\u201c\u7b2c\u4e00\u6b21\u770b\u89c1\u83b2\u201d\uff0c\u6b21\u6bb5\u4e2d\u53c8\u8bf4\u201c\u6211\u5f53\u7136\u65e9\u89c1\u8fc7\u83b2\u201d\uff0c\u8fd9\u6837\u5199\u662f\u5426\u662f\u77db\u76fe\u7684\uff1a</p>\n", 
+        "value": "<p>\u7b2c\u4e00\u81ea\u7136\u6bb5\u4e2d\u8bf4\u201c\u7b2c\u4e00\u6b21\u770b\u89c1\u83b2\u201d\uff0c\u6b21\u6bb5\u4e2d\u53c8\u8bf4\u201c\u6211\u5f53\u7136\u65e9\u89c1\u8fc7\u83b2\u201d\uff0c\u8fd9\u6837\u5199\u662f\u5426\u662f\u77db\u76fe\u7684\uff1a</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "54", 
+  "sticky": "0", 
+  "revision_timestamp": "1403244316", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "9"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u7b2c\u4e00\u81ea\u7136\u6bb5\u4e2d\u8bf4\u201c\u7b2c\u4e00\u6b21\u770b\u89c1\u83b2\u201d", 
+  "comment_count": "0", 
+  "revision_uid": "1", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "54", 
+  "cid": "0", 
+  "last_comment_timestamp": "1398263718", 
+  "path": "http://gct2014-dev.scaret.in/node/54", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>\u5b8c\u5168\u77db\u76fe</p>\n", 
+        "value": "\u5b8c\u5168\u77db\u76fe", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>\u6709\u70b9\u77db\u76fe</p>\n", 
+        "value": "\u6709\u70b9\u77db\u76fe", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e0d\u77db\u76fe</p>\n", 
+        "value": "\u4e0d\u77db\u76fe", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e0d\u5b8c\u5168\u77db\u76fe</p>\n", 
+        "value": "\u4e0d\u5b8c\u5168\u77db\u76fe", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1398263718", 
+  "changed": "1403244316", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e0d\u77db\u76fe\uff0c\u56e0\u4e3a\u4ee5\u524d\u662f\u7528\u773c\u770b\uff0c\u201c\u53ea\u662f\u776b\u74e3\uff0c\u4e0d\u662f\u5fc3\u74e3\u201d\uff0c\u800c\u8fd9\u6b21\u7528\u4e86\u5fc3\u7075\uff0c\u611f\u77e5\u5230\u4e86\u83b2\u7684\u7075\u9b42\u3002</p>\n", 
+        "value": "<p>\u4e0d\u77db\u76fe\uff0c\u56e0\u4e3a\u4ee5\u524d\u662f\u7528\u773c\u770b\uff0c\u201c\u53ea\u662f\u776b\u74e3\uff0c\u4e0d\u662f\u5fc3\u74e3\u201d\uff0c\u800c\u8fd9\u6b21\u7528\u4e86\u5fc3\u7075\uff0c\u611f\u77e5\u5230\u4e86\u83b2\u7684\u7075\u9b42\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

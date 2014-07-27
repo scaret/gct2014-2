@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>He applied for Teaching Assistantship to finance his education and was_______ the position for his rich experience in teaching.\u00a0</p>\n", 
+        "value": "<p>He applied for Teaching Assistantship to finance his education and was_______ the position for his rich experience in teaching.&nbsp;</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "127", 
+  "sticky": "0", 
+  "revision_timestamp": "1402382889", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "He applied for", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "127", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402382889", 
+  "path": "http://gct2014-dev.scaret.in/node/127", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>qualified</p>\n", 
+        "value": "qualified", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>presented</p>\n", 
+        "value": "presented", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>granted</p>\n", 
+        "value": "granted", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>supplied</p>\n", 
+        "value": "supplied", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402382889", 
+  "changed": "1402382889", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u5e94\u6ce8\u610f\u4e0d\u540c\u5355\u8bcd\u7684\u6b63\u786e\u642d\u914d\u548c\u610f\u601d\u3002qualify for sth\uff0e\u548csupply sb. with sth./supply sth. for sb\uff0e\u5206\u522b\u4e3aA\u548cD\u4e24\u4e2a\u9009\u9879\u7684\u6b63\u786e\u642d\u914d\u3002B\u548cc\u4e24\u4e2a\u9009\u9879\u7684\u533a\u522b\u5728\u4e8egrant\u7684\u610f\u601d\u4e3a\u201c\u6b63\u5f0f\u7ed9\u4e88\u201d\uff0c\u800cpresent\u7684\u610f\u601d\u4e3a\u201c\u62ff\u7ed9\u201d\u3002</p>\n", 
+        "value": "<p>\u5e94\u6ce8\u610f\u4e0d\u540c\u5355\u8bcd\u7684\u6b63\u786e\u642d\u914d\u548c\u610f\u601d\u3002qualify for sth\uff0e\u548csupply sb. with sth./supply sth. for sb\uff0e\u5206\u522b\u4e3aA\u548cD\u4e24\u4e2a\u9009\u9879\u7684\u6b63\u786e\u642d\u914d\u3002B\u548cc\u4e24\u4e2a\u9009\u9879\u7684\u533a\u522b\u5728\u4e8egrant\u7684\u610f\u601d\u4e3a\u201c\u6b63\u5f0f\u7ed9\u4e88\u201d\uff0c\u800cpresent\u7684\u610f\u601d\u4e3a\u201c\u62ff\u7ed9\u201d\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

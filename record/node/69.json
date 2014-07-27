@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u67d0\u5546\u573a\u5931\u7a83\uff0c\u5458\u5de5\u7532\u3001\u4e59\u3001\u4e19\u3001\u4e01\u56db\u4eba\u6d89\u6848\u88ab\u62d8\u5ba1\u3002\u901a\u8fc7\u5ba1\u95ee\uff0c\u56db\u4eba\u5404\u8bf4\u4e86\u4e00\u53e5\u8bdd\u3002\u7532\u8bf4\uff1a\u201c\u662f\u4e19\u4f5c\u7684\u6848\u3002\u201d\u4e59\u8bf4\uff1a\u201c\u6211\u548c\u7532\u3001\u4e01\u4e09\u4eba\u81f3\u5c11\u6709\u4e00\u4eba\u4f5c\u6848\u3002\u201d\u4e19\u8bf4\uff1a\u201c\u6211\u6ca1\u4f5c\u6848\u3002\u201d\u4e01\u8bf4\uff1a\u201c\u6211\u4eec\u56db\u4eba\u90fd\u6ca1\u4f5c\u6848\u3002\u201d<br />\n\u5982\u679c\u56db\u4eba\u4e2d\u53ea\u6709\u4e00\u4eba\u8bf4\u771f\u8bdd\uff0c\u90a3\u4e48\u53ef\u4ee5\u5f97\u51fa\u4ee5\u4e0b\u54ea\u9879\u7ed3\u8bba\uff1f</p>\n", 
+        "value": "\u67d0\u5546\u573a\u5931\u7a83\uff0c\u5458\u5de5\u7532\u3001\u4e59\u3001\u4e19\u3001\u4e01\u56db\u4eba\u6d89\u6848\u88ab\u62d8\u5ba1\u3002\u901a\u8fc7\u5ba1\u95ee\uff0c\u56db\u4eba\u5404\u8bf4\u4e86\u4e00\u53e5\u8bdd\u3002\u7532\u8bf4\uff1a\u201c\u662f\u4e19\u4f5c\u7684\u6848\u3002\u201d\u4e59\u8bf4\uff1a\u201c\u6211\u548c\u7532\u3001\u4e01\u4e09\u4eba\u81f3\u5c11\u6709\u4e00\u4eba\u4f5c\u6848\u3002\u201d\u4e19\u8bf4\uff1a\u201c\u6211\u6ca1\u4f5c\u6848\u3002\u201d\u4e01\u8bf4\uff1a\u201c\u6211\u4eec\u56db\u4eba\u90fd\u6ca1\u4f5c\u6848\u3002\u201d\r\n\u5982\u679c\u56db\u4eba\u4e2d\u53ea\u6709\u4e00\u4eba\u8bf4\u771f\u8bdd\uff0c\u90a3\u4e48\u53ef\u4ee5\u5f97\u51fa\u4ee5\u4e0b\u54ea\u9879\u7ed3\u8bba\uff1f\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "69", 
+  "sticky": "0", 
+  "revision_timestamp": "1398400860", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "3"
+      }, 
+      {
+        "tid": "10"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u67d0\u5546\u573a\u5931\u7a83\uff0c\u5458\u5de5\u7532\u3001\u4e59\u3001\u4e19\u3001\u4e01\u56db\u4eba\u6d89\u6848\u88ab\u62d8\u5ba1\u3002", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "69", 
+  "cid": "0", 
+  "last_comment_timestamp": "1398400860", 
+  "path": "http://gct2014-dev.scaret.in/node/69", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>\u7532\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e19</p>\n", 
+        "value": "\u7532\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e19", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e19\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u7532</p>\n", 
+        "value": "\u4e19\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u7532", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e59\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e59</p>\n", 
+        "value": "\u4e59\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e59", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>\u4e19\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e01</p>\n", 
+        "value": "\u4e19\u8bf4\u771f\u8bdd\uff0c\u4f5c\u6848\u7684\u662f\u4e01", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1398400860", 
+  "changed": "1398400860", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u662f\u201c\u6392\u9664\u77db\u76fe\u578b\u201d\u3002\u7532\u548c\u4e19\u7684\u8bdd\u4e92\u76f8\u77db\u76fe\uff0c\u5fc5\u6709\u4e00\u771f\u3002\u56e0\u6b64\uff0c\u4e59\u548c\u4e01\u8bf4\u5047\u8bdd\u3002\u7531\u4e59\u8bf4\u5047\u8bdd\uff0c\u5219\u7532\u3001\u4e59\u3001\u4e01\u90fd\u672a\u4f5c\u6848\u3002\u7531\u4e01\u8bf4\u5047\u8bdd\uff0c\u53ef\u77e5\u56db\u4eba\u4e2d\u81f3\u5c11\u6709\u4e00\u4e2a\u4f5c\u6848\u3002\u56e0\u6b64\uff0c\u4f5c\u6848\u7684\u662f\u4e19\uff0c\u7532\u8bf4\u771f\u8bdd\u3002</p>\n", 
+        "value": "\u672c\u9898\u662f\u201c\u6392\u9664\u77db\u76fe\u578b\u201d\u3002\u7532\u548c\u4e19\u7684\u8bdd\u4e92\u76f8\u77db\u76fe\uff0c\u5fc5\u6709\u4e00\u771f\u3002\u56e0\u6b64\uff0c\u4e59\u548c\u4e01\u8bf4\u5047\u8bdd\u3002\u7531\u4e59\u8bf4\u5047\u8bdd\uff0c\u5219\u7532\u3001\u4e59\u3001\u4e01\u90fd\u672a\u4f5c\u6848\u3002\u7531\u4e01\u8bf4\u5047\u8bdd\uff0c\u53ef\u77e5\u56db\u4eba\u4e2d\u81f3\u5c11\u6709\u4e00\u4e2a\u4f5c\u6848\u3002\u56e0\u6b64\uff0c\u4f5c\u6848\u7684\u662f\u4e19\uff0c\u7532\u8bf4\u771f\u8bdd\u3002", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "A"
+      }
+    ]
+  }
+}

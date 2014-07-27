@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>A large number of cars _______parked in front of my house.</p>\n", 
+        "value": "<p>A large number of cars _______parked in front of my house.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "135", 
+  "sticky": "0", 
+  "revision_timestamp": "1402383369", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "A large number of cars", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "135", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383369", 
+  "path": "http://gct2014-dev.scaret.in/node/135", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>are</p>\n", 
+        "value": "are", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>has</p>\n", 
+        "value": "has", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>is</p>\n", 
+        "value": "is", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>was</p>\n", 
+        "value": "was", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383369", 
+  "changed": "1402383369", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u82f1\u8bed\u540d\u8bcd\uff0c\u7279\u522b\u662f\u53ef\u6570\u540d\u8bcd\u548c\u4e0d\u53ef\u6570\u540d\u8bcd\u3002\u6b64\u9898\u7684\u5173\u952e\u662f\u8981\u5224\u65ad\u4e3b\u8bed\u540d\u8bcd\u662f\u5355\u6570\u8fd8\u662f\u590d\u6570\u3002\u65f6\u6001\u95ee\u9898\u53ea\u9700\u770b\u53e5\u5b50\u7684\u65f6\u95f4\u77ed\u8bed\u5373\u53ef\uff0c\u5982\u679c\u6ca1\u6709\u65f6\u95f4\u8868\u8ff0\uff0c\u5219\u53ea\u9700\u4f7f\u7528\u4e00\u822c\u73b0\u5728\u65f6\u6001\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u82f1\u8bed\u540d\u8bcd\uff0c\u7279\u522b\u662f\u53ef\u6570\u540d\u8bcd\u548c\u4e0d\u53ef\u6570\u540d\u8bcd\u3002\u6b64\u9898\u7684\u5173\u952e\u662f\u8981\u5224\u65ad\u4e3b\u8bed\u540d\u8bcd\u662f\u5355\u6570\u8fd8\u662f\u590d\u6570\u3002\u65f6\u6001\u95ee\u9898\u53ea\u9700\u770b\u53e5\u5b50\u7684\u65f6\u95f4\u77ed\u8bed\u5373\u53ef\uff0c\u5982\u679c\u6ca1\u6709\u65f6\u95f4\u8868\u8ff0\uff0c\u5219\u53ea\u9700\u4f7f\u7528\u4e00\u822c\u73b0\u5728\u65f6\u6001\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "A"
+      }
+    ]
+  }
+}

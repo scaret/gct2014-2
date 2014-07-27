@@ -1,0 +1,151 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u9646\u5730\u81ea\u7136\u5e26\u7eac\u5ea6\u5730\u5e26\u6027\u7684\u4ea7\u751f\u662f\u4ee5______\u4e3a\u57fa\u7840\u7684\uff0c\u7ecf\u5ea6\u5730\u5e26\u6027\u7684\u4ea7\u751f\u53d7 ______\u6761\u4ef6\u5f71\u54cd\u8f83\u5927\uff0c\u5728 \u4e2d\u7eac\u5ea6\u5730\u533a\u8f83\u660e\u663e\u3002</p>\n", 
+        "value": "\u9646\u5730\u81ea\u7136\u5e26\u7eac\u5ea6\u5730\u5e26\u6027\u7684\u4ea7\u751f\u662f\u4ee5______\u4e3a\u57fa\u7840\u7684\uff0c\u7ecf\u5ea6\u5730\u5e26\u6027\u7684\u4ea7\u751f\u53d7 ______\u6761\u4ef6\u5f71\u54cd\u8f83\u5927\uff0c\u5728 \u4e2d\u7eac\u5ea6\u5730\u533a\u8f83\u660e\u663e\u3002", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "32", 
+  "sticky": "0", 
+  "revision_timestamp": "1397919481", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "7"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u9646\u5730\u81ea\u7136\u5e26\u7eac\u5ea6\u5730\u5e26\u6027\u7684\u4ea7\u751f\u662f\u4ee5", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "32", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397919481", 
+  "path": "http://gct2014-dev.scaret.in/node/32", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "value": "\u70ed\u91cf    \u5730\u8d28", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "value": "\u70ed\u91cf    \u6c34\u5206", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "value": "\u677f\u5757\u5f20\u88c2    \u6c34\u5206", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "value": "\u677f\u5757\u5f20\u88c2    \u6e29\u5ea6 ", 
+        "format": null
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397919481", 
+  "changed": "1397919481", 
+  "field_analysis": {
+    "und": [
+      {
+        "value": "\u672c\u9898\u8003\u67e5\u5730\u7406\u5b66\u77e5\u8bc6\u5730\u5e26\u6027\u5dee\u5f02\u7684\u6210\u56e0\uff0c\u4e3b\u8981\u662f\u7531\u4e8e\u592a\u9633\u8f90\u5c04\u5728\u5730\u7403\u8868\u9762\u7684\u5206\u5e03\u4e0d\u5747\u5300\uff0c\u4ea7\u751f\u4e86\u6cbf\u7eac\u5411\u5206\u5e03\u7684\u70ed\u91cf\u5e26\u3002\u70ed\u91cf\u5206\u5e03\u7684\u5730\u5e26\u6027\uff0c\u53c8\u5f71\u54cd\u7740\u6c34\u5206\u7684\u5206\u5e03\uff0c\u5404\u4e2a\u5730\u5e26\u4e0d\u540c\u70ed\u91cf\u548c\u6c34\u5206\u7684\u6761\u4ef6\uff0c\u5f62\u6210\u4e86\u4e0d\u540c\u7684\u6c14\u5019\u7279\u5f81\u3002", 
+        "format": null
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "C"
+      }
+    ]
+  }
+}

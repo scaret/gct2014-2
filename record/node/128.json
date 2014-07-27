@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>We were lost at sea, at the _______of wind and weather.</p>\n", 
+        "value": "<p>We were lost at sea, at the _______of wind and weather.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "128", 
+  "sticky": "0", 
+  "revision_timestamp": "1402382958", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "We were lost at sea", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "128", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402382958", 
+  "path": "http://gct2014-dev.scaret.in/node/128", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>service</p>\n", 
+        "value": "service", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>cost</p>\n", 
+        "value": "cost", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>expense</p>\n", 
+        "value": "expense", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>mercy</p>\n", 
+        "value": "mercy", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402382958", 
+  "changed": "1402382958", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u7684\u91cd\u70b9\u5728\u4e8e\u533a\u522b\u4e0eat the_ of\u642d\u914d\u7684\u8bcd\u7ec4\u7684\u610f\u601d\u3002B\u548cc\u9009\u9879\u7684\u610f\u601d\u90fd\u4e3a\u201c\u4ee5\u2026\u2026\u4e3a\u4ee3\u4ef7\u201d\uff0c\u6240\u4ee5\u4e24\u4e2a\u9009\u9879\u90fd\u4e0d\u80fd\u9009\u3002A\u9009\u9879\u7684\u610f\u601d\u4e3a\u201c\u53d7\u670d\u52a1\u4e8e\u201d\uff1bD\u9009\u9879\u7684\u610f\u601d\u4e3a\u201c\u53d7\u2026\u2026\u63a7\u5236\uff0f\u6446\u5e03\u201d\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u7684\u91cd\u70b9\u5728\u4e8e\u533a\u522b\u4e0eat the_ of\u642d\u914d\u7684\u8bcd\u7ec4\u7684\u610f\u601d\u3002B\u548cc\u9009\u9879\u7684\u610f\u601d\u90fd\u4e3a\u201c\u4ee5\u2026\u2026\u4e3a\u4ee3\u4ef7\u201d\uff0c\u6240\u4ee5\u4e24\u4e2a\u9009\u9879\u90fd\u4e0d\u80fd\u9009\u3002A\u9009\u9879\u7684\u610f\u601d\u4e3a\u201c\u53d7\u670d\u52a1\u4e8e\u201d\uff1bD\u9009\u9879\u7684\u610f\u601d\u4e3a\u201c\u53d7\u2026\u2026\u63a7\u5236\uff0f\u6446\u5e03\u201d\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "D"
+      }
+    ]
+  }
+}

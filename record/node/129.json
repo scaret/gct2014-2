@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>The importance of fitness should not be_______because it is not developed in a day.</p>\n", 
+        "value": "<p>The importance of fitness should not be_______because it is not developed in a day.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "129", 
+  "sticky": "0", 
+  "revision_timestamp": "1402383028", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "The importance of", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "129", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383028", 
+  "path": "http://gct2014-dev.scaret.in/node/129", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>withdrawn</p>\n", 
+        "value": "withdrawn", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>relaxed</p>\n", 
+        "value": "relaxed", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>overlooked</p>\n", 
+        "value": "overlooked", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>stressed</p>\n", 
+        "value": "stressed", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383028", 
+  "changed": "1402383028", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u5e94\u8be5\u7406\u89e3\u5168\u53e5\u8bdd\u7684\u6b63\u786e\u610f\u601d\uff0c\u7279\u522b\u6ce8\u610f\u7b2c\u4e00\u4e2anot\u7684\u4f5c\u7528\u3002\u5728\u6b64\uff0cnot overlooked\u610f\u601d\u4e3a\u201c\u4e0d\u5e94\u8be5\u88ab\u5ffd\u89c6\u201d\u6216\u8005\u201c\u518d\u5f3a\u8c03\u4e5f\u4e0d\u4e3a\u8fc7\u201d\uff0c\u6700\u7b26\u5408\u6b64\u53e5\u8bdd\u7684\u786e\u5207\u542b\u53c9\u3002\u5176\u4ed6\u9009\u9879\u4e0d\u7b26\u5408\u6b64\u53e5\u7684\u610f\u601d\u3002</p>\n", 
+        "value": "<p>\u5e94\u8be5\u7406\u89e3\u5168\u53e5\u8bdd\u7684\u6b63\u786e\u610f\u601d\uff0c\u7279\u522b\u6ce8\u610f\u7b2c\u4e00\u4e2anot\u7684\u4f5c\u7528\u3002\u5728\u6b64\uff0cnot overlooked\u610f\u601d\u4e3a\u201c\u4e0d\u5e94\u8be5\u88ab\u5ffd\u89c6\u201d\u6216\u8005\u201c\u518d\u5f3a\u8c03\u4e5f\u4e0d\u4e3a\u8fc7\u201d\uff0c\u6700\u7b26\u5408\u6b64\u53e5\u8bdd\u7684\u786e\u5207\u542b\u53c9\u3002\u5176\u4ed6\u9009\u9879\u4e0d\u7b26\u5408\u6b64\u53e5\u7684\u610f\u601d\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

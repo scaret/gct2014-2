@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>两句话所表达的意思完全相同的一组是：</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">①路挺滑，我差点儿没摔倒。 ②路挺滑，我差点儿摔倒了。</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">①饭馆卖的饭，四两和二两一样多。 ②饭馆卖的饭，二两和四两一样多。</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">①办完事，我花了一小时才到家。 ②办完事，我到家才花了一小时。 </p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">①这段路，一般不发生重大交通事故。 ②重大交通事故，一般不发生在这段路上。 </p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：A</p>
+              <div>本题考查歧义句。B前一句形容饭少，后一句形容饭多；C前一句形容时间长，后一句形容时间短；D 两句肯定的语气有差别，前一句几乎肯定，后一句则不十分肯定。</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

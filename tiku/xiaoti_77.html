@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>1）卡车只在晚上8 点以后才上路行驶。<br />
+2）酒后开车的司机都不开车灯。<br />
+3）面包车晚上8 点以后都不上路行驶。<br />
+4）晚上8 点以后路上行驶的车都开着车灯。<br />
+5）有的军车晚上8 点以后上路行驶。<br />
+如果以上命题都是真的，那么以下哪种情况是不可能出现的?</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">面包车司机酒后开车。</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">面包车在行驶中开着车灯。</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">司机酒后开车撞上了卡车。</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">军车司机酒后开车。</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：C</p>
+              <div>据题干中的第二个命题“酒后开车的司机都不开灯”和第四个命题“晚上8点以后路上行驶的车都开着车灯”，可以推出结论：酒后开车的司机都不会在晚上8点以后在路上行驶。再考虑题干中的第一个命题“卡车只在晚上8点以后才上路行驶”，所以可以得出结论：司机酒后开车不可能撞了卡车。</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

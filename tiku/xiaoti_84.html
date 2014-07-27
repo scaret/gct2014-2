@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>某机关调经运动会有3个短跑项目，分别是60米、100米和200米。老张、老王和老李分别参加了其中的一种，而且三人参赛的项目还不一样。小张、小王和小李做了以下猜测：<br />
+小张：老张参加了60米，老王参加了100米<br />
+小王：老李没参加100米，老王参加了60米。<br />
+小李：老张没参加60米，老王参加了200米。<br />
+如果他们的猜测都对了一半，则以下哪项为真？</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">老张、老王和老李分别参加200米、100米和 60米</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">老张、老王和老李分别参加60米、200米和100米</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">老张、老王和老李分别参加100米、60米和200米</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">老张、老王和老李分别参加200米、60米和100米</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：D</p>
+              <div>首先看到小张跟小李说话的前半句是矛盾的。必有一真一假。假设小张的前半句是真的，则老张参加了60米，老王没有参加100米。那么小李的前半句说：老张没参加60米。是假的，可以推出后面那句是真的，就是：老王参加了200米。通过小李的说法后半句“老王参加了200米”推出后半句：老王参加了60米。是假的。那么说他的前半句：老李没参加100米。是真的。综合上述应该是：老张参加了60米；老王参加了200米；老李没参加100米。——结论与题意不符合。
+所以小张的前半句是假的。小李的前半句：老张没有参加60米是对的，推出老王参加了200米是错的。那么老王没有参加200米。由小张的后半句：“老王参加了100米”是真的，推出小王的后半句“老王参加了60米”是假的。
+所以小张的前半句：老李没参加100米，是真的。知道了老王参加了100米，剩下只有两个人老张与老李。因为从小张的说法可以知道：老张没有参加60米，那么参加60米的一定是老李了。
+老张只能是参加200米了。
+</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

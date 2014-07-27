@@ -1,0 +1,153 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u82e5D\u5f97\u5230\u7684\u70b9\u51fb\u6bd4Z\u591a\uff0c\u90a3\u4e48\u6700\u591a\u53ef\u80fd\u6709\u591a\u5c11\u4f4d\u9009\u624b\u7684\u540d\u6b21\u4f1a\u88ab\u786e\u5b9a\uff1f</p>\n", 
+        "value": "<p>\u82e5D\u5f97\u5230\u7684\u70b9\u51fb\u6bd4Z\u591a\uff0c\u90a3\u4e48\u6700\u591a\u53ef\u80fd\u6709\u591a\u5c11\u4f4d\u9009\u624b\u7684\u540d\u6b21\u4f1a\u88ab\u786e\u5b9a\uff1f</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "112", 
+  "sticky": "0", 
+  "revision_timestamp": "1405327764", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "9"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u82e5D\u5f97\u5230\u7684\u70b9\u51fb\u6bd4Z\u591a", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "112", 
+  "cid": "0", 
+  "last_comment_timestamp": "1398409916", 
+  "path": "http://gct2014-dev.scaret.in/node/112", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>2</p>\n", 
+        "value": "2", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>4</p>\n", 
+        "value": "4", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>3</p>\n", 
+        "value": "3", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>5</p>\n", 
+        "value": "5", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1398409916", 
+  "changed": "1405327764", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u5f53D\u5f97\u5230\u7684\u70b9\u51fb\u6bd4Z\u591a\u65f6\uff0c\u7531\u5206\u6790\u53ef\u77e5\uff0c\u5fc5\u5b9a\u662f\u5728\u7b2c\u4e00\u4f4d\uff0cD\u5728\u7b2c\u4e8c\u4f4d\uff0c\u6839\u636e\u6761\u4ef6\u5206\u6790\u53ef\u4ee5\u786e\u5b9aL\u5728\u7b2c\u4e03\u4f4d\uff0c\u800cW\u53ef\u4ee5\u5728\u4e09\u3001\u56db\u3001\u4e94\u3001\u516d\u4e2d\u7684\u4efb\u4e00\u4e2a\u540d\u6b21\u4e0a\uff0c\u6240\u4ee5\u53ea\u53ef\u4ee5\u786e\u5b9a\u51faS\uff0cD\u548cL\u4e09\u4f4d\u9009\u624b\u7684\u540d\u6b21\u3002</p>\n", 
+        "value": "<p>\u5f53D\u5f97\u5230\u7684\u70b9\u51fb\u6bd4Z\u591a\u65f6\uff0c\u7531\u5206\u6790\u53ef\u77e5\uff0c\u5fc5\u5b9a\u662f\u5728\u7b2c\u4e00\u4f4d\uff0cD\u5728\u7b2c\u4e8c\u4f4d\uff0c\u6839\u636e\u6761\u4ef6\u5206\u6790\u53ef\u4ee5\u786e\u5b9aL\u5728\u7b2c\u4e03\u4f4d\uff0c\u800cW\u53ef\u4ee5\u5728\u4e09\u3001\u56db\u3001\u4e94\u3001\u516d\u4e2d\u7684\u4efb\u4e00\u4e2a\u540d\u6b21\u4e0a\uff0c\u6240\u4ee5\u53ea\u53ef\u4ee5\u786e\u5b9a\u51faS\uff0cD\u548cL\u4e09\u4f4d\u9009\u624b\u7684\u540d\u6b21\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

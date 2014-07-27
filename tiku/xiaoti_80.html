@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>在上次考试中，老师出了一道非常古怪的难题，有86%的考生不及格。这次考试之前，王见明预测说：“根据上次考试情况，这次考试老师不一定会出那种难题了。”胡思明说：“这就是说这次考试老师肯定不出那种难题了。太好了!”王见明说：“我不是这个意思。”<br />
+下面哪句话与王见明说的意思相似（   ）</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">这次考试老师不可能不出那种难题</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">这次考试老师必定不出那种难题了</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">这次考试老师可能不出那种难题了</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">这次考试老师不可能出那种难题了</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：C</p>
+              <div>模态命题推理。不一定P=并非偶然 	P=可能不P。
+因此，这次老师不一定会出那种难题了=这次考试老师可能不出那种难题了。</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

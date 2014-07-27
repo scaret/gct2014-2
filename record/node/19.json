@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u4e0b\u9762\u4e00\u6bb5\u8bdd\u6709\u4e24\u79cd\u6807\u70b9\u6cd5\uff0c\u8bf7\u6307\u51fa\u54ea\u4e00\u79cd\u662f\u5b8c\u5168\u6b63\u786e\u7684\uff1a \u8ba9\u6211\u4eec\u6367\u8d77\u4e00\u628a\u6ce5\u571f\u6765\u4ed4\u7ec6\u7aef\u8be6\u5427( \u00a0)\u8fd9\u662f\u6211\u4eec\u7684\u571f\u5730\u5475( \u00a0)\u600e\u6837\u4fdd\u536b\u6bcf\u4e00\u5bf8\u571f\u5730\u5462( \u00a0)\u600e\u6837 \u4f7f\u6bcf\u4e00\u5bf8\u571f\u5730\u90fd\u53d1\u6325\u5b83\u7684\u5de8\u5927\u6f5c\u529b( \u00a0)\u4e00\u5929\u5929\u66f4\u52a0\u7f8e\u597d\u8d77\u6765\u5462( \u00a0)\u515a\u6b63\u5728\u9886\u5bfc\u7740\u6211\u4eec\u524d\u8fdb( \u00a0)\u9752\u6625\u7684 \u5927\u5730\u597d\u50cf\u53d1\u51fa\u5de8\u5927\u7684\u58f0\u97f3( \u00a0)\u8981\u6c42\u5168\u56fd\u4eba\u6c11\u90fd\u4f5c\u51fa\u56de\u7b54( \u00a0)</p>\n", 
+        "value": "<p>\u4e0b\u9762\u4e00\u6bb5\u8bdd\u6709\u4e24\u79cd\u6807\u70b9\u6cd5\uff0c\u8bf7\u6307\u51fa\u54ea\u4e00\u79cd\u662f\u5b8c\u5168\u6b63\u786e\u7684\uff1a \u8ba9\u6211\u4eec\u6367\u8d77\u4e00\u628a\u6ce5\u571f\u6765\u4ed4\u7ec6\u7aef\u8be6\u5427( &nbsp;)\u8fd9\u662f\u6211\u4eec\u7684\u571f\u5730\u5475( &nbsp;)\u600e\u6837\u4fdd\u536b\u6bcf\u4e00\u5bf8\u571f\u5730\u5462( &nbsp;)\u600e\u6837 \u4f7f\u6bcf\u4e00\u5bf8\u571f\u5730\u90fd\u53d1\u6325\u5b83\u7684\u5de8\u5927\u6f5c\u529b( &nbsp;)\u4e00\u5929\u5929\u66f4\u52a0\u7f8e\u597d\u8d77\u6765\u5462( &nbsp;)\u515a\u6b63\u5728\u9886\u5bfc\u7740\u6211\u4eec\u524d\u8fdb( &nbsp;)\u9752\u6625\u7684 \u5927\u5730\u597d\u50cf\u53d1\u51fa\u5de8\u5927\u7684\u58f0\u97f3( &nbsp;)\u8981\u6c42\u5168\u56fd\u4eba\u6c11\u90fd\u4f5c\u51fa\u56de\u7b54( &nbsp;)</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "19", 
+  "sticky": "0", 
+  "revision_timestamp": "1405307954", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "6"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u4e0b\u9762\u4e00\u6bb5\u8bdd\u6709\u4e24\u79cd\u6807\u70b9\u6cd5\uff0c\u8bf7\u6307\u51fa\u54ea\u4e00\u79cd\u662f\u5b8c\u5168\u6b63\u786e\u7684\uff1a", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "19", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397918757", 
+  "path": "http://gct2014-dev.scaret.in/node/19", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>\uff0c\u3002?\uff0c?\u3002\uff0c\u3002</p>\n", 
+        "value": "\uff0c\u3002?\uff0c?\u3002\uff0c\u3002", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>!\u3002?\uff0c?\uff0c\uff0c\u3002</p>\n", 
+        "value": "!\u3002?\uff0c?\uff0c\uff0c\u3002", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>!!?\uff0c?\u3002\uff0c\u3002</p>\n", 
+        "value": "!!?\uff0c?\u3002\uff0c\u3002 ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>!!?\uff0c?\uff0c\uff0c\u3002</p>\n", 
+        "value": "!!?\uff0c?\uff0c\uff0c\u3002", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397918757", 
+  "changed": "1405307954", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u8003\u67e5\u6807\u70b9\u7b26\u53f7\u7684\u8fd0\u7528\u3002\u524d\u4e24\u53e5\u662f\u611f\u53f9\u53e5\uff0c\u5e94\u586b\u611f\u53f9\u53f7\uff1b\u201c\u515a\u6b63\u5728\u9886\u5bfc\u7740\u6211\u4eec\u524d\u8fdb\u201d\u540e\u5e94\u4e3a \u53e5\u53f7\uff0c\u6545\u9009B \u9879\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u8003\u67e5\u6807\u70b9\u7b26\u53f7\u7684\u8fd0\u7528\u3002\u524d\u4e24\u53e5\u662f\u611f\u53f9\u53e5\uff0c\u5e94\u586b\u611f\u53f9\u53f7\uff1b\u201c\u515a\u6b63\u5728\u9886\u5bfc\u7740\u6211\u4eec\u524d\u8fdb\u201d\u540e\u5e94\u4e3a \u53e5\u53f7\uff0c\u6545\u9009B \u9879\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

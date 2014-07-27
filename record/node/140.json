@@ -1,0 +1,153 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>We can learn from the passage that_______.</p>\n", 
+        "value": "<p>We can learn from the passage that_______.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "140", 
+  "sticky": "0", 
+  "revision_timestamp": "1405325948", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "9"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "We can learn", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "140", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383993", 
+  "path": "http://gct2014-dev.scaret.in/node/140", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>Venus is always the last to appear in the sky in the evening</p>\n", 
+        "value": "Venus is always the last to appear in the sky in the evening", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>Venus is sometimes the last to disappear in the eastern sky in the morning</p>\n", 
+        "value": "Venus is sometimes the last to disappear in the eastern sky in the morning", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>Venus is sometimes the last to appear in the sky in the morning</p>\n", 
+        "value": "Venus is sometimes the last to appear in the sky in the morning", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>Venus is sometimes the last to disappear in the western sky in the morning</p>\n", 
+        "value": "Venus is sometimes the last to disappear in the western sky in the morning", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383993", 
+  "changed": "1405325948", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u7684\u5173\u952e\u662f\u9010\u9879\u786e\u8ba4\u9009\u9879\u5185\u5bb9\uff0c\u627e\u51fa\u4e00\u4e2a\u4e0e\u5176\u4f9d\u636e\u53e5\u610f\u601d\u5b8c\u5168\u4e00\u81f4\u7684\u9009\u9879\u3002\u5728\u6b64\u5904\uff0cc\u9009\u9879\u4e0e\u5176\u4f9d\u636e\u53e5\uff08\u7b2c2\u6bb5\u7b2c2\u4e2a\u53e5\u5b50\uff1aAt other times\uff0cit is the last planet or star that can be seen in the eastem sky in the morning.)\u610f\u601d\u4e00\u81f4\uff0c\u6240\u4ee5\u4e3a\u6b63\u786e\u7b54\u6848\u3002\u5176\u4ed6\u9009\u9879\u627e\u4e0d\u5230\u4e0e\u5176\u610f\u601d\u5b8c\u5168\u4e00\u81f4\u7684\u4f9d\u636e\u53e5\uff0c\u5c5e\u4e8e\u9519\u8bef\u4fe1\u606f\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u7684\u5173\u952e\u662f\u9010\u9879\u786e\u8ba4\u9009\u9879\u5185\u5bb9\uff0c\u627e\u51fa\u4e00\u4e2a\u4e0e\u5176\u4f9d\u636e\u53e5\u610f\u601d\u5b8c\u5168\u4e00\u81f4\u7684\u9009\u9879\u3002\u5728\u6b64\u5904\uff0cc\u9009\u9879\u4e0e\u5176\u4f9d\u636e\u53e5\uff08\u7b2c2\u6bb5\u7b2c2\u4e2a\u53e5\u5b50\uff1aAt other times\uff0cit is the last planet or star that can be seen in the eastem sky in the morning.)\u610f\u601d\u4e00\u81f4\uff0c\u6240\u4ee5\u4e3a\u6b63\u786e\u7b54\u6848\u3002\u5176\u4ed6\u9009\u9879\u627e\u4e0d\u5230\u4e0e\u5176\u610f\u601d\u5b8c\u5168\u4e00\u81f4\u7684\u4f9d\u636e\u53e5\uff0c\u5c5e\u4e8e\u9519\u8bef\u4fe1\u606f\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "C"
+      }
+    ]
+  }
+}

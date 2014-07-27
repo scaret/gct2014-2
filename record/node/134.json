@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>The girl won't have her lunch before she_______her homework.</p>\n", 
+        "value": "<p>The girl won't have her lunch before she_______her homework.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "134", 
+  "sticky": "0", 
+  "revision_timestamp": "1402383314", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "The girl won't have", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "134", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383314", 
+  "path": "http://gct2014-dev.scaret.in/node/134", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>will finish</p>\n", 
+        "value": "will finish", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>had finished</p>\n", 
+        "value": "had finished", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>finishes</p>\n", 
+        "value": "finishes", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>finished</p>\n", 
+        "value": "finished", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383314", 
+  "changed": "1402383314", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u5c06\u6765\u65f6\u95f4\u53e5\u7684\u65f6\u6001\u3002\u6839\u636e\u82f1\u8bed\u8bed\u6cd5\u89c4\u5219\uff0c\u5c06\u6765\u65f6\u95f4\u53e5\u548c\u6761\u4ef6\u53e5\u7684\u65f6\u6001\u5e94\u7528\u4e00\u822c\u73b0\u5728\u65f6\u6001\uff08\u6709\u65f6\u7528\u73b0\u5728\u5b8c\u6210\u65f6\u6001\uff09\u3002\u5176\u4e3b\u53e5\u7528\u5c06\u6765\u65f6\u6001\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u5c06\u6765\u65f6\u95f4\u53e5\u7684\u65f6\u6001\u3002\u6839\u636e\u82f1\u8bed\u8bed\u6cd5\u89c4\u5219\uff0c\u5c06\u6765\u65f6\u95f4\u53e5\u548c\u6761\u4ef6\u53e5\u7684\u65f6\u6001\u5e94\u7528\u4e00\u822c\u73b0\u5728\u65f6\u6001\uff08\u6709\u65f6\u7528\u73b0\u5728\u5b8c\u6210\u65f6\u6001\uff09\u3002\u5176\u4e3b\u53e5\u7528\u5c06\u6765\u65f6\u6001\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "B"
+      }
+    ]
+  }
+}

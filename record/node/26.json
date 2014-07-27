@@ -1,0 +1,151 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>______\u662f\u8d22\u52a1\u7ba1\u7406\u533a\u522b\u4e8e\u5176\u5b83\u7ba1\u7406\u7684\u7279\u70b9\u3002</p>\n", 
+        "value": "______\u662f\u8d22\u52a1\u7ba1\u7406\u533a\u522b\u4e8e\u5176\u5b83\u7ba1\u7406\u7684\u7279\u70b9\u3002", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "26", 
+  "sticky": "0", 
+  "revision_timestamp": "1397919156", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "7"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u8d22\u52a1\u7ba1\u7406\u533a\u522b\u4e8e\u5176\u5b83\u7ba1\u7406\u7684\u7279\u70b9\u3002", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "26", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397919156", 
+  "path": "http://gct2014-dev.scaret.in/node/26", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "value": "\u8d44\u91d1\u7ba1\u7406", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "value": "\u4ef7\u503c\u7ba1\u7406", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "value": "\u8d22\u52a1\u5173\u7cfb\u5904\u7406", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "value": "\u8d44\u91d1\u8fd0\u52a8", 
+        "format": null
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397919156", 
+  "changed": "1397919156", 
+  "field_analysis": {
+    "und": [
+      {
+        "value": "\u672c\u9898\u8003\u67e5\u7ba1\u7406\u5b66\u77e5\u8bc6\u3002\u8d22\u52a1\u7ba1\u7406\u533a\u522b\u4e8e\u5176\u4ed6\u7ba1\u7406\u7684\u7279\u70b9\u5728\u4e8e\u5b83\u662f\u4e00\u79cd\u4ef7\u503c\u7ba1\u7406\uff0c\u5373\u5bf9\u4f01\u4e1a\u518d\u751f\u4ea7\u8fc7\u7a0b\u4e2d\u4ef7\u503c\u8fd0\u52a8\u6240\u8fdb\u884c\u7684\u7ba1\u7406\u3002\u8d22\u52a1\u7ba1\u7406\u5229\u7528\u8d44\u91d1\u3001\u6210\u672c\u3001\u6536\u5165\u7b49\u4ef7\u503c\u6307\u6807\u6765\u7ec4\u7ec7\u4f01\u4e1a\u4ef7\u503c\u7684\u5f62\u6210\u3001\u5b9e\u73b0\u548c\u5206\u914d\uff0c\u5e76\u5904\u7406\u8fd9\u79cd\u4ef7\u503c\u8fd0\u52a8\u4e2d\u7684\u7ecf\u6d4e\u5173\u7cfb\u3002", 
+        "format": null
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "C"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>家用电炉有三个部件：加热器、恒温器和安全器。加热器只有两个设置： 开和关。在正常工作的情况下， 如果将加热器设置为开， 则电炉运作加热功能； 设置为关， 则停止这一功能。当温度达到恒温器的温度旋钮所设定的读数时， 加热器自动关闭。 电炉中只有恒温器具有这一功能。只要温度一超出温度旋钮的最高读数， 安全器自动关闭加热器。 同样， 电炉中只有安全器具有这一功能。 当电炉启动时， 三个部件同时工作， 除非发生故障。<br />
+以上判定最能支持以下哪项结论？</p>
+
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">一个电炉，如果它的恒温器和安全器都出现了故障，则它的温度一定会超出温度旋钮的最高读数。</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">一个电炉，如果其加热的温度超出了温度旋钮的设定读数但加热器并没有关闭，则安全器出现了故障。</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">一个电炉，如果加热器自动关闭，则恒温器一定工作正常。</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/wenhao.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">一个电炉，如果其加热温度超出了温度旋钮的最高读数，则它的恒温器和安全器一定都出现了故障。</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：D</p>
+              <div>根据题干的条件，若电炉其加热的温度超出了旋钮的高读数，说明当温度达到恒温器的温度旋钮所设定的读数时，加热器未自动关闭，即恒温器故障了；也说明此时安全器出现了故障。也就是说，一个电炉，如果其加热的温度超出了温度旋钮的最高读数，则它的恒温器和安全器一定都出现了故障。因此，D项作为题干的结论成立。
+A例如在加热器不工作的情况下，恒温器和安全器即使都出现故障，电炉的温度也不会超出温度旋钮的最高读数。B因为一个电炉，如果其加热的温度超出了温度旋钮的设定读数但加热器未关闭，只能说明恒温器出现故障，不能说明安全器出现故障。C因为一个电炉加热器自动关闭，可能是恒温器出现故障，但安全器工作正常。
+</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <script src="../main_danxuan.js"></script>
+    </div>
+  </body>
+</html>

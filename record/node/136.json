@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>Whether or not their business will succeed _______their most concern.</p>\n", 
+        "value": "<p>Whether or not their business will succeed _______their most concern.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "136", 
+  "sticky": "0", 
+  "revision_timestamp": "1402383422", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "23"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "Whether or not their", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "136", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402383422", 
+  "path": "http://gct2014-dev.scaret.in/node/136", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>have become</p>\n", 
+        "value": "have become ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>has become</p>\n", 
+        "value": "has become", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>are</p>\n", 
+        "value": "are", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>to become</p>\n", 
+        "value": "to become", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1402383422", 
+  "changed": "1402383422", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u5224\u65ad\u7528\u53e5\u5b50\u4f5c\u4e3a\u4e3b\u8bed\u5e94\u8be5\u7528\u4f55\u79cd\u8c13\u8bed\u52a8\u8bcd\u53d8\u5316\u5f62\u5f0f\u3002\u6839\u636e\u82f1\u8bed\u8bed\u6cd5\uff0c\u7528\u53e5\u5b50\u4f5c\u4e3b\u8bed\u5176\u8c13\u8bed\u52a8\u8bcd\u5e94\u8be5\u7528\u5355\u6570\u7b2c\u4e09\u4eba\u79f0\u53d8\u4ed6\u5f62\u5f0f\u3002\u672c\u9898\u7684A\u548cB\u9009\u9879\u90fd\u662f\u590d\u6570\u8c13\u8bed\u52a8\u8bcd\u5f62\u5f0f\uff0cD\u9009\u9879\u4e0d\u662f\u8c13\u8bed\u52a8\u8bcd\u5f62\u5f0f\uff0c\u53ea\u6709c\u9009\u9879\u7b26\u5408\u6b64\u53e5\u7684\u8bed\u6cd5\u8981\u6c42\u3002\u6b64\u5904\u7528\u5b8c\u6210\u65f6\u6001\u4f53\u73b0\u4e00\u79cd\u7ed3\u679c\u3002\u5168\u53e5\u610f\u601d\u4e3a\u201c\u4ed6\u4eec\u73b0\u5728\u6700\u5173\u5fc3\u7684\u4e8b\u60c5\u662f\u4ed6\u4eec\u7684\u751f\u610f\u80fd\u5426\u6210\u529f\u201d\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u7684\u8003\u70b9\u662f\u5224\u65ad\u7528\u53e5\u5b50\u4f5c\u4e3a\u4e3b\u8bed\u5e94\u8be5\u7528\u4f55\u79cd\u8c13\u8bed\u52a8\u8bcd\u53d8\u5316\u5f62\u5f0f\u3002\u6839\u636e\u82f1\u8bed\u8bed\u6cd5\uff0c\u7528\u53e5\u5b50\u4f5c\u4e3b\u8bed\u5176\u8c13\u8bed\u52a8\u8bcd\u5e94\u8be5\u7528\u5355\u6570\u7b2c\u4e09\u4eba\u79f0\u53d8\u4ed6\u5f62\u5f0f\u3002\u672c\u9898\u7684A\u548cB\u9009\u9879\u90fd\u662f\u590d\u6570\u8c13\u8bed\u52a8\u8bcd\u5f62\u5f0f\uff0cD\u9009\u9879\u4e0d\u662f\u8c13\u8bed\u52a8\u8bcd\u5f62\u5f0f\uff0c\u53ea\u6709c\u9009\u9879\u7b26\u5408\u6b64\u53e5\u7684\u8bed\u6cd5\u8981\u6c42\u3002\u6b64\u5904\u7528\u5b8c\u6210\u65f6\u6001\u4f53\u73b0\u4e00\u79cd\u7ed3\u679c\u3002\u5168\u53e5\u610f\u601d\u4e3a\u201c\u4ed6\u4eec\u73b0\u5728\u6700\u5173\u5fc3\u7684\u4e8b\u60c5\u662f\u4ed6\u4eec\u7684\u751f\u610f\u80fd\u5426\u6210\u529f\u201d\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "C"
+      }
+    ]
+  }
+}

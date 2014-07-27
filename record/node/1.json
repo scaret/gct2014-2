@@ -1,0 +1,151 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u8bf7\u5bf9\u51fa\u4e0b\u53e5\uff1a\u5e8a\u524d\u660e\u6708\u5149\uff0c___________\u3002</p>\n", 
+        "value": "\u8bf7\u5bf9\u51fa\u4e0b\u53e5\uff1a\u5e8a\u524d\u660e\u6708\u5149\uff0c___________\u3002", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "1", 
+  "vid": "1", 
+  "sticky": "0", 
+  "revision_timestamp": "1397408571", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "5"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u5e8a\u524d\u660e\u6708\u5149", 
+  "comment_count": "0", 
+  "revision_uid": "1", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "1", 
+  "nid": "1", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397408248", 
+  "path": "http://gct2014-dev.scaret.in/node/1", 
+  "promote": "1", 
+  "data": "b:0;", 
+  "tnid": "0", 
+  "name": "admin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "value": "\u7591\u662f\u5730\u4e0a\u971c", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "value": "\u534a\u5339\u7ea2\u7ee1\u4e00\u4e08\u7eeb", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "value": "\u4e00\u679d\u7ea2\u674f\u51fa\u5899\u6765", 
+        "format": null
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "value": "\u66f2\u9879\u5411\u5929\u6b4c", 
+        "format": null
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397408248", 
+  "changed": "1397408571", 
+  "field_analysis": {
+    "und": [
+      {
+        "value": "\u5e8a\u524d\u660e\u6708\u5149\u662f\u674e\u767d\u7684\u8bd7\uff0c\u9009A\u3002B\u3001C\u5b57\u6570\u4e0d\u5bf9\uff0cD\u610f\u601d\u4e0d\u5bf9\u3002", 
+        "format": null
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "A"
+      }
+    ]
+  }
+}

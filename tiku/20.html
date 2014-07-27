@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css">
+    <link rel="stylesheet" href="../index.css">
+    <script src="../jquery.mobile-1.4.2/jquery-1.11.0.min.js"></script>
+    <script src="../underscore-min.js"></script>
+    <script src="../jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="main" class="ui-content"><p>依次填入下列横线上的关联词语，最恰当的一组是： ①水利事业的发展，______加快了我们地区农业改造的步伐。 ②许多政府部门虽无权提出法案，但它们往往承担法律或法规草案起草工作， ______也可以对立法 施以影响。 ③实践对认识具有决定的作用，最终总是使认识不断纠正自身的偏差，______与实践发展的状况和要 求相适应。</p><br/>
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#" choice="A" class="selection"><img src="../img/A.jpg" class="answer_pic">
+              <h2>A</h2>
+              <p class="field_choice">从而          因而          进而</p></a></li>
+          <li><a href="#" choice="B" class="selection"><img src="../img/B.jpg" class="answer_pic">
+              <h2>B</h2>
+              <p class="field_choice">进而          因而          从而</p></a></li>
+          <li><a href="#" choice="C" class="selection"><img src="../img/C.jpg" class="answer_pic">
+              <h2>C</h2>
+              <p class="field_choice">进而          从而          因而</p></a></li>
+          <li><a href="#" choice="D" class="selection"><img src="../img/D.jpg" class="answer_pic">
+              <h2>D</h2>
+              <p class="field_choice">因而          进而          从而</p></a></li>
+          <div data-role="collapsible" class="correctAnswer">
+            <h4>查看正确答案</h4>
+            <div>
+              <p>正确答案：B</p>
+              <div><p>本题考查关联词的运用。A①句为递进关系，应填“进而”，③句没有递进关系，应填连词“从 而”C②句为因果关系，应填“因而”；D①句递进关系不能填“因而”。</p>
+</div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div data-role="footer" data-position="fixed" data-fullscreen="true">
+        <fieldset class="ui-grid-a">
+          <div class="ui-block-a">
+            <button onclick="shangyiti()">上一题</button>
+          </div>
+          <div class="ui-block-b">
+            <button onclick="xiayiti();">下一题</button>
+          </div>
+        </fieldset>
+      </div>
+      <script src="../main_danxuan.js"></script>
+      <script src="../redirect_index.js"></script>
+    </div>
+  </body>
+</html>

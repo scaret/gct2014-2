@@ -1,0 +1,156 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>\u5728\u6587\u8a00\u6587\u4e2d\u201c\u793e\u7a37\u201d\u4e00\u822c\u6307\u4ee3______\uff0c\u5176\u4e2d\u201c\u793e\u201d\u6307______\u3001\u201c\u7a37\u201d\u6307______\u3002</p>\n", 
+        "value": "<p>\u5728\u6587\u8a00\u6587\u4e2d\u201c\u793e\u7a37\u201d\u4e00\u822c\u6307\u4ee3______\uff0c\u5176\u4e2d\u201c\u793e\u201d\u6307______\u3001\u201c\u7a37\u201d\u6307______\u3002</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "22", 
+  "sticky": "0", 
+  "revision_timestamp": "1405307632", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "1"
+      }, 
+      {
+        "tid": "7"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "\u5728\u6587\u8a00\u6587\u4e2d\u201c\u793e\u7a37\u201d\u4e00\u822c\u6307\u4ee3", 
+  "comment_count": "0", 
+  "revision_uid": "3", 
+  "translate": "0", 
+  "type": "dan_xuan_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "last_comment_uid": "3", 
+  "nid": "22", 
+  "cid": "0", 
+  "last_comment_timestamp": "1397918927", 
+  "path": "http://gct2014-dev.scaret.in/node/22", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "field_choice_a": {
+    "und": [
+      {
+        "safe_value": "<p>\u7956\u5148          \u6c34\u795e          \u8c37\u795e</p>\n", 
+        "value": "\u7956\u5148          \u6c34\u795e          \u8c37\u795e ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_c": {
+    "und": [
+      {
+        "safe_value": "<p>\u7956\u5148          \u793e\u65e5\u795e          \u571f\u5730\u795e</p>\n", 
+        "value": "\u7956\u5148          \u793e\u65e5\u795e          \u571f\u5730\u795e ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_b": {
+    "und": [
+      {
+        "safe_value": "<p>\u56fd\u5bb6          \u5c71\u795e          \u8c37\u795e</p>\n", 
+        "value": "\u56fd\u5bb6          \u5c71\u795e          \u8c37\u795e ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field_choice_d": {
+    "und": [
+      {
+        "safe_value": "<p>\u56fd\u5bb6          \u571f\u5730\u795e          \u8c37\u795e</p>\n", 
+        "value": "\u56fd\u5bb6          \u571f\u5730\u795e          \u8c37\u795e ", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "language": "und", 
+  "created": "1397918927", 
+  "changed": "1405307632", 
+  "field_analysis": {
+    "und": [
+      {
+        "safe_value": "<p>\u672c\u9898\u8003\u67e5\u4e2d\u56fd\u5386\u53f2\u77e5\u8bc6\u3002\u53e4\u4ee3\u793e\u7a37\u5c31\u662f\u6307\u56fd\u5bb6\uff0c\u6216\u6307\u7687\u6743\uff1b\u201c\u793e\u201d\u201c\u7a37\u201d\u4ece\u5b57\u9762\u6765\u770b\u662f\u571f\u5730\u795e \u548c\u4e94\u8c37\u795e\u3002\u7531\u4e8e\u53e4\u65f6\u7684\u541b\u738b\u4e3a\u4e86\u7948\u6c42\u56fd\u4e8b\u592a\u5e73\uff0c\u4e94\u8c37\u4e30\u767b\uff0c\u6bcf\u5e74\u90fd\u8981\u5230\u90ca\u5916\u796d\u7940\u571f\u5730\u795e\u548c\u4e94\u8c37\u795e\u3002\u793e\u7a37\u4e5f \u5c31\u6210\u4e86\u56fd\u5bb6\u7684\u8c61\u5f81\uff0c\u540e\u6765\u4eba\u4eec\u5c31\u7528\u201c\u793e\u7a37\u201d\u6765\u4ee3\u8868\u56fd\u5bb6\u3002</p>\n", 
+        "value": "<p>\u672c\u9898\u8003\u67e5\u4e2d\u56fd\u5386\u53f2\u77e5\u8bc6\u3002\u53e4\u4ee3\u793e\u7a37\u5c31\u662f\u6307\u56fd\u5bb6\uff0c\u6216\u6307\u7687\u6743\uff1b\u201c\u793e\u201d\u201c\u7a37\u201d\u4ece\u5b57\u9762\u6765\u770b\u662f\u571f\u5730\u795e \u548c\u4e94\u8c37\u795e\u3002\u7531\u4e8e\u53e4\u65f6\u7684\u541b\u738b\u4e3a\u4e86\u7948\u6c42\u56fd\u4e8b\u592a\u5e73\uff0c\u4e94\u8c37\u4e30\u767b\uff0c\u6bcf\u5e74\u90fd\u8981\u5230\u90ca\u5916\u796d\u7940\u571f\u5730\u795e\u548c\u4e94\u8c37\u795e\u3002\u793e\u7a37\u4e5f \u5c31\u6210\u4e86\u56fd\u5bb6\u7684\u8c61\u5f81\uff0c\u540e\u6765\u4eba\u4eec\u5c31\u7528\u201c\u793e\u7a37\u201d\u6765\u4ee3\u8868\u56fd\u5bb6\u3002</p>\r\n", 
+        "format": "filtered_html"
+      }
+    ]
+  }, 
+  "field__xuan_xiang": {
+    "und": [
+      {
+        "value": "D"
+      }
+    ]
+  }
+}
