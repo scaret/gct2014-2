@@ -46,3 +46,6 @@ html {
     max-height: 300px;
     overflow: scroll;
 }
+img{
+	max-width: 550px;
+|
