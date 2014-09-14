@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="vendor/underscore/js/underscore.js"></script>
+    <script src="vendor/jquery/js/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/knockout/js/knockout.js"></script>
+    <script src="vendor/gct2014/js/timuLoader.js"></script>
+    <script src="vendor/gct2014/js/timuLoader_knockout.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">2014 GCT 真题库 - 选择知识点 </h3>
+    </div>
+
+    <div id="select_zhishidian">
+        <div class="kemu" data-bind="foreach:nested">
+            <div class="kemuName">
+                <span data-bind="text:name" style="font-size: 20px;"></span>
+                <button class="btn btn-sm btn-info" data-toggle="modal" data-bind="attr: {'data-target': '#modal_kemujieshao_' + tid}">
+                    科目介绍
+                </button>
+            </div>
+
+
+            <!-- begin Modal -->
+            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-bind="attr:{id:'modal_kemujieshao_' + tid}">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel" data-bind="text: name"></h4>
+                        </div>
+                        <div class="modal-body" data-bind="html: description">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-group" data-bind="foreach:{data:children}">
+                <a class="list-group-item" data-bind="attr:{href: 'node.html#!/zhishidian/' + tid + '/start'}">
+                    <span class="badge" data-bind="text:nodes.length"></span>
+                    <span data-bind="text: name"></span>
+                </a>
+            </div>
+            <!-- end modal-->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy;  GCT 2014</p>
+    </div>
+
+</div> <!-- /container -->
+</body>
+</html>
