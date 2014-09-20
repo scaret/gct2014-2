@@ -10,8 +10,4 @@ updateGct2014Model();
 $(document).ready(function ()
 {
     ko.applyBindings(gct2014Model);
-    $("#url").on("change", function(){
-        $("#go").attr("href", $("#url").val());
-        $("#go").text($("#url").val());
-    })
 });
