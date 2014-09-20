@@ -42,10 +42,10 @@ var xuanxiang_select = function(){
     timuObj['field_choice_b'].isCorrect = (correctXuanxiang == 'B');
     timuObj['field_choice_c'].isCorrect = (correctXuanxiang == 'C');
     timuObj['field_choice_d'].isCorrect = (correctXuanxiang == 'D');
-    if (gct2014Model.timuObj.nid == timuObj.nid){
+    if (gct2014Model.timuObj().nid == timuObj.nid){
         gct2014Model.timuObj.valueHasMutated();
     }
-    else{
+    else if (index){
         gct2014Model.xiaoti()[index].valueHasMutated();
     }
     if (!timuObj['field_choice_d'].isCorrect && timuObj['field__xuan_xiang'].selected)
