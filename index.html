@@ -17,10 +17,11 @@
       </div>
 
       <div class="jumbotron">
-          <h1>欢迎使用GCT真题库</h1>
+          <h1>欢迎使用</h1>
+          <h2>GCT真题库</h2>
           <p><a class="btn btn-lg btn-success" href="select_zhishidian.html" role="button">选择知识点</a></p>
-          <p><a class="btn btn-lg btn-success" href="node/#!/resume" role="button">继续上次</a></p>
-          <p><a class="btn btn-lg btn-success" href="wrong.html" role="button">错题本</a></p>
+          <p id="resume"><a class="btn btn-lg btn-success" href="node.html#resume" role="button">继续上次</a></p>
+          <p id="wrong"><a class="btn btn-lg btn-success" href="wrong.html" role="button">错题本</a></p>
       </div>
 
       <div class="footer">
@@ -28,5 +29,13 @@
       </div>
 
   </div> <!-- /container -->
+  <script>
+      if (!window.localStorage.getItem('nid')){
+          $("#resume").hide();
+      }
+      if (Object.keys(gct2014.cuoti).length == 0){
+          $("#wrong").hide();
+      }
+  </script>
   </body>
 </html>

@@ -2,6 +2,7 @@
 var AppRouter = Backbone.Router.extend({
     routes: {
         "zhishidian/:zid/start" : "startZhishidian",
+        "resume" : "resume",
         "zhishidian/:zid/node/:nid"   : "loadTimu"
     },
 
@@ -11,7 +12,13 @@ var AppRouter = Backbone.Router.extend({
         this.navigate("zhishidian/" + zid + "/node/" + getTimuByIndex(zid, 0).nid, {trigger: true, replace: true});
     },
 
+    resume : function(){
+        this.navigate("zhishidian/" + window.localStorage.getItem("zid") + "/node/" + window.localStorage.getItem("nid"), {trigger: true, replace: true});
+    },
+
     loadTimu: function (zid, nid){
+        window.localStorage.setItem("zid", zid);
+        window.localStorage.setItem("nid", nid);
         gct2014Model.state(getInfoByNid(nid));
         var timuObj = gct2014Model.nodes[nid];
         gct2014Model.xiaotiCnt = 0;
