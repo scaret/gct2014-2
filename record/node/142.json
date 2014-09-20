@@ -1,0 +1,125 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>Venus\uff08\u91d1\u661f\uff09 is known as the earth's \" twin\"\u00a0 because the two planets are so like each other in size. The diameter of Venus is about 7, 520 miles( 12,100 km. ) , smaller than that of the earth. No other planet comes closer to the earth than Venus.\u00a0 At its nearest approach it is about 25 ,000 ,000 miles\u00a0 (40 ,2000,000 km. ) away.</p>\n<p>As seen from the earth, Venus is the first planet or star that can be seen in the western sky in the evening. At other times, it is the last planet or star that can be seen in the eastern sky in the morning. When Venus is near its brightest point, it can be seen in daylight. Early astronomers called the object that appeared in the evening Hesperus, and Phosphorus in the morning. Later, they realized these two objects were the same planet. They named it Venus in honor of the Roman goddess of love and beauty.</p>\n", 
+        "value": "<p>Venus\uff08\u91d1\u661f\uff09 is known as the earth's \" twin\"&nbsp; because the two planets are so like each other in size. The diameter of Venus is about 7, 520 miles( 12,100 km. ) , smaller than that of the earth. No other planet comes closer to the earth than Venus.&nbsp; At its nearest approach it is about 25 ,000 ,000 miles&nbsp; (40 ,2000,000 km. ) away.</p>\r\n\r\n<p>As seen from the earth, Venus is the first planet or star that can be seen in the western sky in the evening. At other times, it is the last planet or star that can be seen in the eastern sky in the morning. When Venus is near its brightest point, it can be seen in daylight. Early astronomers called the object that appeared in the evening Hesperus, and Phosphorus in the morning. Later, they realized these two objects were the same planet. They named it Venus in honor of the Roman goddess of love and beauty.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "142", 
+  "sticky": "0", 
+  "revision_timestamp": "1411227663", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "24"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "Venus\uff08\u91d1\u661f\uff09 is known as the earth'", 
+  "comment_count": "0", 
+  "field_xiaoti": {
+    "und": [
+      {
+        "nid": "137"
+      }, 
+      {
+        "nid": "138"
+      }, 
+      {
+        "nid": "140"
+      }, 
+      {
+        "nid": "139"
+      }, 
+      {
+        "nid": "141"
+      }
+    ]
+  }, 
+  "revision_uid": "1", 
+  "translate": "0", 
+  "type": "qing_jing_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "field_bodyimage": [], 
+  "last_comment_uid": "3", 
+  "nid": "142", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402384242", 
+  "path": "http://gct2014-dev.scaret.in/node/142", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "language": "und", 
+  "created": "1402384242", 
+  "changed": "1411227663", 
+  "field_analysis": []
+}

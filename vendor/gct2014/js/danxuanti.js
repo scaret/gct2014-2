@@ -14,23 +14,40 @@ var AppRouter = Backbone.Router.extend({
     loadTimu: function (zid, nid){
         gct2014Model.state(getInfoByNid(nid));
         var timuObj = gct2014Model.nodes[nid];
+        gct2014Model.xiaotiCnt = 0;
         gct2014Model.timuObj(timuObj);
+        if (timuObj.field_xiaoti){
+            timuObj.field_xiaoti.und.map(function(obj, index){
+                gct2014Model.xiaoti()[index](gct2014Model['nodes'][obj.nid]);
+                gct2014Model.xiaotiCnt +=1;
+                gct2014Model.xiaoti.valueHasMutated()
+            });
+        }
     }
 });
 
 var app_router = new AppRouter;
 Backbone.history.start();
 
-var xuanxiang_select = function(xuanxiang){
-    var timuObj = gct2014Model.timuObj();
+var xuanxiang_select = function(){
+    var xuanxiang = $(this).attr("xuanxiang");
+    var nid = $(this).parent(".timu").attr("nid");
+    var index = $(this).parent(".timu").attr("xiaoti_index");
+    var timuObj = gct2014Model.nodes[nid];
+    var correctXuanxiang = timuObj['field__xuan_xiang'].und[0].value;
+
     timuObj['field_choice_' + xuanxiang.toLowerCase()].selected = true;
     timuObj['field__xuan_xiang'].selected = true;
-    var correctXuanxiang = timuObj['field__xuan_xiang'].und[0].value;
     timuObj['field_choice_a'].isCorrect = (correctXuanxiang == 'A');
     timuObj['field_choice_b'].isCorrect = (correctXuanxiang == 'B');
     timuObj['field_choice_c'].isCorrect = (correctXuanxiang == 'C');
     timuObj['field_choice_d'].isCorrect = (correctXuanxiang == 'D');
-    gct2014Model.timuObj(timuObj);
+    if (gct2014Model.timuObj.nid == timuObj.nid){
+        gct2014Model.timuObj.valueHasMutated();
+    }
+    else{
+        gct2014Model.xiaoti()[index].valueHasMutated();
+    }
     if (!timuObj['field_choice_d'].isCorrect && timuObj['field__xuan_xiang'].selected)
     {
         mark_cuoti(timuObj);

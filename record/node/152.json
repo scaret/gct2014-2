@@ -1,0 +1,140 @@
+{
+  "comment": "2", 
+  "body": {
+    "und": [
+      {
+        "safe_summary": "", 
+        "format": "filtered_html", 
+        "safe_value": "<p>A land free from destruction, plus wealth, natural resources, and labor supply-all these were important factors, in helping England to become the center for the Industrial Revolution. <u>\u00a0\u00a031\u00a0\u00a0 </u>they were not enough. Something else was needed to start the industrial process. That \"something special\" was men-<u>\u00a0 32\u00a0\u00a0 </u>individuals who could invent machines, find new sources of power, and establish business organizations to reshape society.</p>\n<p>The men who<u>\u00a0\u00a0 33\u00a0\u00a0 </u>the machines of the Industrial Revolution came from many backgrounds and many occupations. Many of them were<u>\u00a0\u00a0 34\u00a0 </u>\u00a0inventors than scientists. A man who is a pure scientist is primarily interested in doing his research <u>\u00a0\u00a0\u00a035\u00a0\u00a0 </u>.\u00a0 He is not necessarily working so that his findings can be used. An inventor or one interested in applied science is ~6 trying to make something that has a concrete idea. He may try to solve a problem by using the theories <u>\u00a0\u00a036\u00a0\u00a0 </u>\u00a0science or by experimenting through trial and error. Regardless of his method, he is working to obtain a specific result: the construction of a harvesting machine, the burning of a light bulb, or one of <u>\u00a0\u00a038\u00a0\u00a0\u00a0 </u>0ther objectives.</p>\n<p>Most of the people who developed the machines of the Industrial Revolution were inventors, not trained scientists. A few were both scientists and inventors. Even those who had <u>\u00a0\u00a0\u00a039\u00a0\u00a0\u00a0 </u>0r no training in science might not have made their inventions if a groundwork had not been laid by scientists years<u>\u00a0\u00a0 40\u00a0 </u>.</p>\n", 
+        "value": "<p>A land free from destruction, plus wealth, natural resources, and labor supply-all these were important factors, in helping England to become the center for the Industrial Revolution. <u>&nbsp;&nbsp;31&nbsp;&nbsp; </u>they were not enough. Something else was needed to start the industrial process. That \"something special\" was men-<u>&nbsp; 32&nbsp;&nbsp; </u>individuals who could invent machines, find new sources of power, and establish business organizations to reshape society.</p>\r\n\r\n<p>The men who<u>&nbsp;&nbsp; 33&nbsp;&nbsp; </u>the machines of the Industrial Revolution came from many backgrounds and many occupations. Many of them were<u>&nbsp;&nbsp; 34&nbsp; </u>&nbsp;inventors than scientists. A man who is a pure scientist is primarily interested in doing his research <u>&nbsp;&nbsp;&nbsp;35&nbsp;&nbsp; </u>.&nbsp; He is not necessarily working so that his findings can be used. An inventor or one interested in applied science is ~6 trying to make something that has a concrete idea. He may try to solve a problem by using the theories <u>&nbsp;&nbsp;36&nbsp;&nbsp; </u>&nbsp;science or by experimenting through trial and error. Regardless of his method, he is working to obtain a specific result: the construction of a harvesting machine, the burning of a light bulb, or one of <u>&nbsp;&nbsp;38&nbsp;&nbsp;&nbsp; </u>0ther objectives.</p>\r\n\r\n<p>Most of the people who developed the machines of the Industrial Revolution were inventors, not trained scientists. A few were both scientists and inventors. Even those who had <u>&nbsp;&nbsp;&nbsp;39&nbsp;&nbsp;&nbsp; </u>0r no training in science might not have made their inventions if a groundwork had not been laid by scientists years<u>&nbsp;&nbsp; 40&nbsp; </u>.</p>\r\n", 
+        "summary": ""
+      }
+    ]
+  }, 
+  "rdf_mapping": {
+    "body": {
+      "predicates": [
+        "content:encoded"
+      ]
+    }, 
+    "changed": {
+      "predicates": [
+        "dc:modified"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "uid": {
+      "predicates": [
+        "sioc:has_creator"
+      ], 
+      "type": "rel"
+    }, 
+    "title": {
+      "predicates": [
+        "dc:title"
+      ]
+    }, 
+    "created": {
+      "predicates": [
+        "dc:date", 
+        "dc:created"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "rdftype": [
+      "sioc:Item", 
+      "foaf:Document"
+    ], 
+    "last_activity": {
+      "predicates": [
+        "sioc:last_activity_date"
+      ], 
+      "datatype": "xsd:dateTime", 
+      "callback": "date_iso8601"
+    }, 
+    "comment_count": {
+      "predicates": [
+        "sioc:num_replies"
+      ], 
+      "datatype": "xsd:integer"
+    }, 
+    "name": {
+      "predicates": [
+        "foaf:name"
+      ]
+    }
+  }, 
+  "uid": "3", 
+  "vid": "152", 
+  "sticky": "0", 
+  "revision_timestamp": "1411227663", 
+  "field_suoshuzhishidian": {
+    "und": [
+      {
+        "tid": "4"
+      }, 
+      {
+        "tid": "25"
+      }
+    ]
+  }, 
+  "last_comment_name": null, 
+  "log": "", 
+  "title": "A land free", 
+  "comment_count": "0", 
+  "field_xiaoti": {
+    "und": [
+      {
+        "nid": "143"
+      }, 
+      {
+        "nid": "144"
+      }, 
+      {
+        "nid": "145"
+      }, 
+      {
+        "nid": "146"
+      }, 
+      {
+        "nid": "147"
+      }, 
+      {
+        "nid": "148"
+      }, 
+      {
+        "nid": "153"
+      }, 
+      {
+        "nid": "149"
+      }, 
+      {
+        "nid": "150"
+      }, 
+      {
+        "nid": "151"
+      }
+    ]
+  }, 
+  "revision_uid": "1", 
+  "translate": "0", 
+  "type": "qing_jing_ti", 
+  "status": "1", 
+  "picture": "0", 
+  "field_bodyimage": [], 
+  "last_comment_uid": "3", 
+  "nid": "152", 
+  "cid": "0", 
+  "last_comment_timestamp": "1402384984", 
+  "path": "http://gct2014-dev.scaret.in/node/152", 
+  "promote": "1", 
+  "data": null, 
+  "tnid": "0", 
+  "name": "gctadmin", 
+  "language": "und", 
+  "created": "1402384984", 
+  "changed": "1411227663", 
+  "field_analysis": []
+}

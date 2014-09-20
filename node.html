@@ -36,29 +36,64 @@
 
 </div> <!-- /container -->
 <script type="text/html" id="tmpl-dan_xuan_ti">
-    <div id="timu" data-bind="html: fixUrl(body.und[0].value)"></div>
-    <h4 class="page-header">选项</h4>
-    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('A')" id="xuanxiang_a">
-        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_a.isCorrect ? 'img/correct.png' : (field_choice_a.selected ? 'img/incorrect.jpg' : 'img/A.jpg')}" />
-        <div data-bind="html: fixUrl(field_choice_a.und[0].value)"></div>
-    </div>
-    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('B')" id="xuanxiang_b">
-        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_b.isCorrect ? 'img/correct.png' : (field_choice_b.selected ? 'img/incorrect.jpg' : 'img/B.jpg')}" />
-        <div data-bind="html: fixUrl(field_choice_b.und[0].value)"></div>
-    </div>
-    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('C')" id="xuanxiang_a">
-        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_c.isCorrect ? 'img/correct.png' : (field_choice_c.selected ? 'img/incorrect.jpg' : 'img/C.jpg')}" />
-        <div data-bind="html: fixUrl(field_choice_c.und[0].value)"></div>
-    </div>
-    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('D')" id="xuanxiang_a">
-        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_d.isCorrect ? 'img/correct.png' : (field_choice_d.selected ? 'img/incorrect.jpg' : 'img/D.jpg')}" />
-        <div data-bind="html: fixUrl(field_choice_d.und[0].value)"></div>
-    </div>
-    <div data-bind="visible: field_choice_a.isCorrect !== undefined">
-        <h4 class="page-header">分析：</h4>
-        <div data-bind="html: fixUrl(field_analysis.und[0].value)"></div>
+    <div data-bind="attr: {id: 'timu_' + nid, nid: nid}" class="timu">
+        <div id="timu" data-bind="html: fixUrl(body.und[0].value)"></div>
+        <h4 class="page-header">选项</h4>
+        <div class="xuanxiang_wrapper" onclick="xuanxiang_select.call(this)" id="xuanxiang_a" xuanxiang="A">
+            <img class="xuanxiang_img" data-bind="attr: {src: field_choice_a.isCorrect ? 'img/correct.png' : (field_choice_a.selected ? 'img/incorrect.jpg' : 'img/A.jpg')}" />
+            <div data-bind="html: fixUrl(field_choice_a.und[0].value)"></div>
+        </div>
+        <div class="xuanxiang_wrapper" onclick="xuanxiang_select.call(this)" id="xuanxiang_b" xuanxiang="B">
+            <img class="xuanxiang_img" data-bind="attr: {src: field_choice_b.isCorrect ? 'img/correct.png' : (field_choice_b.selected ? 'img/incorrect.jpg' : 'img/B.jpg')}" />
+            <div data-bind="html: fixUrl(field_choice_b.und[0].value)"></div>
+        </div>
+        <div class="xuanxiang_wrapper" onclick="xuanxiang_select.call(this)" id="xuanxiang_c" xuanxiang="C">
+            <img class="xuanxiang_img" data-bind="attr: {src: field_choice_c.isCorrect ? 'img/correct.png' : (field_choice_c.selected ? 'img/incorrect.jpg' : 'img/C.jpg')}" />
+            <div data-bind="html: fixUrl(field_choice_c.und[0].value)"></div>
+        </div>
+        <div class="xuanxiang_wrapper" onclick="xuanxiang_select.call(this)" id="xuanxiang_d" xuanxiang="D">
+            <img class="xuanxiang_img" data-bind="attr: {src: field_choice_d.isCorrect ? 'img/correct.png' : (field_choice_d.selected ? 'img/incorrect.jpg' : 'img/D.jpg')}" />
+            <div data-bind="html: fixUrl(field_choice_d.und[0].value)"></div>
+        </div>
+        <div data-bind="visible: field_choice_a.isCorrect !== undefined">
+            <h4 class="page-header">分析：</h4>
+            <div data-bind="html: fixUrl(field_analysis.und[0].value)"></div>
+        </div>
     </div>
 </script>
+<script type="text/html" id="tmpl-qing_jing_ti">
+    <div id="timu" data-bind="html: fixUrl(body.und[0].value)"></div>
+    </div>
+    <h3 class="page-header">小题</h3>
+    <div data-bind="foreach: gct2014Model.xiaoti.slice(0, gct2014Model.xiaotiCnt)">
+        <div data-bind="attr: {id: 'timu_' + nid, nid: nid, xiaoti_index: $index()}" class="timu">
+            <h4 class="page-header" data-bind="text: '第' + ($index() + 1 ) + '小题'"></h4>
+            <div id="timu" data-bind="html: fixUrl(body.und[0].value)"></div>
+            <h4 class="page-header">选项</h4>
+            <div class="xuanxiang_wrapper" id="xuanxiang_a" onclick="xuanxiang_select.call(this)" xuanxiang="A">
+                <img class="xuanxiang_img" data-bind="attr: {src: field_choice_a.isCorrect ? 'img/correct.png' : (field_choice_a.selected ? 'img/incorrect.jpg' : 'img/A.jpg')}" />
+                <div data-bind="html: fixUrl(field_choice_a.und[0].value)"></div>
+            </div>
+            <div class="xuanxiang_wrapper" id="xuanxiang_b" onclick="xuanxiang_select.call(this)" xuanxiang="B">
+                <img class="xuanxiang_img" data-bind="attr: {src: field_choice_b.isCorrect ? 'img/correct.png' : (field_choice_b.selected ? 'img/incorrect.jpg' : 'img/B.jpg')}" />
+                <div data-bind="html: fixUrl(field_choice_b.und[0].value)"></div>
+            </div>
+            <div class="xuanxiang_wrapper" id="xuanxiang_c" onclick="xuanxiang_select.call(this)" xuanxiang="C">
+                <img class="xuanxiang_img" data-bind="attr: {src: field_choice_c.isCorrect ? 'img/correct.png' : (field_choice_c.selected ? 'img/incorrect.jpg' : 'img/C.jpg')}" />
+                <div data-bind="html: fixUrl(field_choice_c.und[0].value)"></div>
+            </div>
+            <div class="xuanxiang_wrapper"  id="xuanxiang_d" onclick="xuanxiang_select.call(this)" xuanxiang="D">
+                <img class="xuanxiang_img" data-bind="attr: {src: field_choice_d.isCorrect ? 'img/correct.png' : (field_choice_d.selected ? 'img/incorrect.jpg' : 'img/D.jpg')}" />
+                <div data-bind="html: fixUrl(field_choice_d.und[0].value)"></div>
+            </div>
+            <div data-bind="visible: field_choice_a.isCorrect !== undefined">
+                <h4 class="page-header">分析：</h4>
+                <div data-bind="html: fixUrl(field_analysis.und[0].value)"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
 <script src="vendor/underscore/js/underscore.js"></script>
 <script src="vendor/jquery/js/jquery.js"></script>
 <script src="vendor/jquery/js/jquery.touch.js"></script>
