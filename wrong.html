@@ -20,7 +20,7 @@
     <div id="list_cuoti">
         <div class="list-group" data-bind="foreach:{data:gct2014Model.cuoti}">
             <div class="cuoti_item" data-bind="attr: {nid: nid, cindex: $index()}">
-                <a class="list-group-item" data-bind="attr:{href: 'node.html#zhishidian/' + info.zsdId + '/node/' + nid}" style="max-height:200px">
+                <a class="list-group-item" data-bind="attr:{href: 'node.html#zhishidian/' + info.zsdId + '/node/' + nid}" style="max-height:200px;overflow:scroll">
                     <h5 data-bind="text: gct2014.flat[info.kemuId].name + ' >> ' + gct2014.flat[info.zsdId].name"></h5>
                     <span data-bind="html: body.und[0].value"></span>
                 </a>
