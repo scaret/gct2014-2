@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="vendor/underscore/js/underscore.js"></script>
+    <script src="vendor/jquery/js/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/knockout/js/knockout.js"></script>
+    <script src="vendor/gct2014/js/timuLoader.js"></script>
+    <script src="vendor/gct2014/js/timuLoader_knockout.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">2014 GCT 真题库 - 错题 </h3>
+    </div>
+
+    <div id="list_cuoti">
+        <div class="list-group" data-bind="foreach:{data:gct2014Model.cuoti}">
+            <div class="cuoti_item" data-bind="attr: {nid: nid, cindex: $index()}">
+                <a class="list-group-item" data-bind="attr:{href: 'node.html#zhishidian/' + info.zsdId + '/node/' + nid}" style="max-height:200px">
+                    <h5 data-bind="text: gct2014.flat[info.kemuId].name + ' >> ' + gct2014.flat[info.zsdId].name"></h5>
+                    <span data-bind="html: body.und[0].value"></span>
+                </a>
+                <button type="button" class="btn btn-danger" onclick="deleteCuoti.call(this)" style="margin-bottom:10px">从错题本中删除</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy;  GCT 2014</p>
+    </div>
+
+</div> <!-- /container -->
+<script>
+    deleteCuoti = function(){
+        console.log($(this).parent(".cuoti_item"))
+        var nid = $(this).parent(".cuoti_item").attr("nid");
+        var cindex = parseInt($(this).parent(".cuoti_item").attr("cindex"));
+        console.log(nid,cindex, gct2014.cuoti[nid])
+        delete gct2014.cuoti[nid];
+        saveToLocalStorage();
+        gct2014Model.cuoti.splice(cindex, 1);
+    }
+</script>
+</body>
+</html>

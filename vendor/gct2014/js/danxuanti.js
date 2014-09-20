@@ -50,12 +50,13 @@ var xuanxiang_select = function(){
     }
     if (!timuObj['field_choice_d'].isCorrect && timuObj['field__xuan_xiang'].selected)
     {
-        mark_cuoti(timuObj);
+        mark_cuoti(gct2014Model.timuObj());
     }
 };
 
 var mark_cuoti = function (timuObj){
     timuObj.addAt = new Date().getTime();
+    timuObj.info = getInfoByNid(timuObj.nid);
     gct2014.cuoti[timuObj.nid] = timuObj;
     saveToLocalStorage();
 };
