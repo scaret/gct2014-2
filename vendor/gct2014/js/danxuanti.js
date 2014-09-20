@@ -6,12 +6,14 @@ var AppRouter = Backbone.Router.extend({
     },
 
     startZhishidian: function (zid){
+        alert("zsd:" + zid);
         var nid = getTimuByIndex(zid, 0).nid;
         saveToLocalStorage();
         this.navigate("zhishidian/" + zid + "/node/" + getTimuByIndex(zid, 0).nid, {trigger: true, replace: true});
     },
 
     loadTimu: function (zid, nid){
+        alert("loadTimu" + zid +" " + nid);
         gct2014Model.state(getInfoByNid(nid));
         var timuObj = gct2014Model.nodes[nid];
         gct2014Model.timuObj(timuObj);
