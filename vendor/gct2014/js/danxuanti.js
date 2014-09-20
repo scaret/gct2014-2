@@ -6,18 +6,15 @@ var AppRouter = Backbone.Router.extend({
     },
 
     startZhishidian: function (zid){
-        alert("zsd:" + zid);
         var nid = getTimuByIndex(zid, 0).nid;
         saveToLocalStorage();
         this.navigate("zhishidian/" + zid + "/node/" + getTimuByIndex(zid, 0).nid, {trigger: true, replace: true});
     },
 
     loadTimu: function (zid, nid){
-        alert("loadTimu" + zid +" " + nid);
         gct2014Model.state(getInfoByNid(nid));
         var timuObj = gct2014Model.nodes[nid];
         gct2014Model.timuObj(timuObj);
-        console.log(timuObj);
     }
 });
 
@@ -33,9 +30,11 @@ var xuanxiang_select = function(xuanxiang){
     timuObj['field_choice_b'].isCorrect = (correctXuanxiang == 'B');
     timuObj['field_choice_c'].isCorrect = (correctXuanxiang == 'C');
     timuObj['field_choice_d'].isCorrect = (correctXuanxiang == 'D');
-    if (!timuObj['field_choice_d'].isCorrect && timuObj['field__xuan_xiang'].selected)
-        mark_cuoti(timuObj);
     gct2014Model.timuObj(timuObj);
+    if (!timuObj['field_choice_d'].isCorrect && timuObj['field__xuan_xiang'].selected)
+    {
+        mark_cuoti(timuObj);
+    }
 };
 
 var mark_cuoti = function (timuObj){
