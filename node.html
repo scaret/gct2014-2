@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="vendor/underscore/js/underscore.js"></script>
+    <script src="vendor/jquery/js/jquery.js"></script>
+    <script src="vendor/jquery/js/jquery.touch.js"></script>
+    <script src="vendor/backbone/js/backbone.js"></script>
+    <script src="vendor/backbone/js/backbone.localStorage.js"></script>
+    <script src="vendor/knockout/js/knockout.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/gct2014/js/timuLoader.js"></script>
+    <script src="vendor/gct2014/js/timuLoader_knockout.js"></script>
+    <script src="vendor/gct2014/js/danxuanti.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/jumbotron-narrow.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        .xuanxiang_img{
+            float:left;
+            height: 60px;
+        }
+        .xuanxiang_wrapper{
+            min-height: 80px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted" data-bind="text: '【'  + (state().nodeIndex + 1) + '/' + state().nodeCount + '】 ' + gct2014.flat[state().zsdId].name"></h3>
+    </div>
+
+    <div class="wrapper" data-bind="template: { name: 'tmpl-' + timuObj().type, data: timuObj }">
+
+    </div>
+
+    <div class="footer">
+        <ul class="nav nav-pills" style="margin: auto;">
+            <li data-bind="attr: {class: state().lastNodeId? '' : 'disabled'}"><a class="lastPage" data-bind="attr: {href: '#zhishidian/' + state().zsdId + '/node/' + state().lastNodeId}">上一题</a></li>
+            <li><a href="select_zhishidian.html">回首页</a></li>
+            <li data-bind="attr: {class: state().nextNodeId? '' : 'disabled'}"><a class="nextPage" data-bind="attr: {href: '#zhishidian/' + state().zsdId + '/node/' + state().nextNodeId}">下一题</a></li>
+        </ul>
+        <p>&copy;  GCT 2014</p>
+    </div>
+
+</div> <!-- /container -->
+<script type="text/html" id="tmpl-dan_xuan_ti">
+    <div id="timu" data-bind="html: fixUrl(body.und[0].value)"></div>
+    <h4 class="page-header">选项</h4>
+    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('A')" id="xuanxiang_a">
+        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_a.isCorrect ? 'img/correct.png' : (field_choice_a.selected ? 'img/incorrect.jpg' : 'img/A.jpg')}" />
+        <div data-bind="html: fixUrl(field_choice_a.und[0].value)"></div>
+    </div>
+    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('B')" id="xuanxiang_b">
+        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_b.isCorrect ? 'img/correct.png' : (field_choice_b.selected ? 'img/incorrect.jpg' : 'img/B.jpg')}" />
+        <div data-bind="html: fixUrl(field_choice_b.und[0].value)"></div>
+    </div>
+    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('C')" id="xuanxiang_a">
+        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_c.isCorrect ? 'img/correct.png' : (field_choice_c.selected ? 'img/incorrect.jpg' : 'img/C.jpg')}" />
+        <div data-bind="html: fixUrl(field_choice_c.und[0].value)"></div>
+    </div>
+    <div class="xuanxiang_wrapper" onclick="xuanxiang_select('D')" id="xuanxiang_a">
+        <img class="xuanxiang_img" data-bind="attr: {src: field_choice_d.isCorrect ? 'img/correct.png' : (field_choice_d.selected ? 'img/incorrect.jpg' : 'img/D.jpg')}" />
+        <div data-bind="html: fixUrl(field_choice_d.und[0].value)"></div>
+    </div>
+    <div data-bind="visible: field_choice_a.isCorrect !== undefined">
+        <h4 class="page-header">分析：</h4>
+        <div data-bind="html: fixUrl(field_analysis.und[0].value)"></div>
+    </div>
+</script>
+</body>
+</html>

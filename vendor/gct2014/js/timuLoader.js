@@ -9,6 +9,12 @@ function saveToLocalStorage()
     }
 }
 //..............................................................................
+function fixUrl(str){
+    var strout = str.replace("/sites/default/files/", "img/");
+    strout = strout.replace('<img ', '<img class="img-responsive"  class="img-rounded"');
+    return strout;
+}
+//..............................................................................
 function loadFromLocalStorage()
 {
     gct2014_str = window.localStorage.getItem("gct2014");
@@ -23,9 +29,60 @@ function loadFromLocalStorage()
     }
 }
 //..............................................................................
+function getTimuByIndex(zid, tindex){
+    var timuObj = null;
+    if (gct2014Model){
+        for(var kemuIndex in gct2014Model.nested){
+            for (var zsdIndex in gct2014Model.nested[kemuIndex].children){
+                if (gct2014Model.nested[kemuIndex].children[zsdIndex].tid == zid){
+                    if (gct2014Model.nested[kemuIndex].children[zsdIndex].nodes){
+                        timuObj = gct2014Model.nested[kemuIndex].children[zsdIndex].nodes[tindex];
+                    }
+                }
+            }
+        }
+    }
+    return timuObj;
+}
+//..............................................................................
+function getInfoByNid(nid){
+    var info = null;
+    if (gct2014){
+        for(var kemuIndex in gct2014.nested){
+            for (var zsdIndex in gct2014.nested[kemuIndex].children){
+                var lastNodeId = null;
+                for (var nodeIndex in gct2014.nested[kemuIndex].children[zsdIndex].nodes){
+                    if (gct2014.nested[kemuIndex].children[zsdIndex].nodes[nodeIndex].nid == nid ){
+                        info = {
+                            kemuIndex : parseInt(kemuIndex),
+                            kemuId    : parseInt(gct2014.nested[kemuIndex].tid),
+                            zsdIndex  : parseInt(zsdIndex),
+                            zsdId     : parseInt(gct2014.nested[kemuIndex].children[zsdIndex].tid),
+                            nodeIndex : parseInt(nodeIndex),
+                            nodeCount : parseInt(gct2014.nested[kemuIndex].children[zsdIndex].nodes.length),
+                            nodeId    : parseInt(nid),
+                            lastNodeId: parseInt(lastNodeId)
+                        };
+                    }
+                    else if (info){
+                        if (info.nodeCount -1 > info.nodeIndex) info.nextNodeId = gct2014.nested[kemuIndex].children[zsdIndex].nodes[nodeIndex].nid;
+                        return info;
+                    }
+                    else
+                    {
+                        lastNodeId = gct2014.nested[kemuIndex].children[zsdIndex].nodes[nodeIndex].nid
+                    }
+                }
+                if (info) break;
+            }
+        }
+    }
+    return info;
+}
+//..............................................................................
 function loadFromFile()
 {
-    window.gct2014 = {flat:{},nested:[],nodes:{}};
+    window.gct2014 = {flat:{},nested:[],nodes:{}, cuoti: {}};
     $.ajaxSetup({async:false});
     $.getJSON("record/taxonomy_vocabulary/getTree/2.json", function(taxonomy_vocabulary){
 
@@ -98,8 +155,8 @@ function loadFromFile()
                     //"            载入题目：" + window.gct2014.flat[km].name + "/" + window.gct2014.flat[zsd].name + "/" + node.nid,
                     //node
                     //);
-                    if (km && gct2014.flat[km]) gct2014.flat[km].nodes.push(node);
-                    if (zsd&& gct2014.flat[zsd]) gct2014.flat[zsd].nodes.push(node);
+                    if (km && gct2014.flat[km]) gct2014.flat[km].nodes.unshift(node);
+                    if (zsd&& gct2014.flat[zsd]) gct2014.flat[zsd].nodes.unshift(node);
                     gct2014.nodes[node.nid] = node;
                     //}catch(e){}
                 }).always(function(){
@@ -113,9 +170,9 @@ function loadFromFile()
 //..............................................................................
 
 ////////////////////////////////////////////////////////////////////////////////
-window.localStorage.clear();
 if (!(window.gct2014 = loadFromLocalStorage()))
 {
     window.gct2014 = loadFromFile();
+    saveToLocalStorage();
 }
 ////////////////////////////////////////////////////////////////////////////////
