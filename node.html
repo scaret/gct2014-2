@@ -14,10 +14,13 @@
             min-height: 80px;
         }
         .affix{
+            left:0;
+            right:0;
+            padding: 20px;
             max-height: 200px;
             overflow: scroll;
             top: 0;
-            box-shadow: 0 10px 5px #888888;
+            box-shadow: 0 10px 5px #BBBBBB;
         }
     </style>
 </head>
@@ -68,7 +71,7 @@
     </div>
 </script>
 <script type="text/html" id="tmpl-qing_jing_ti">
-    <div id="timu" data-bind="html: fixUrl(body.und[0].value)" data-spy="affix" data-offset-top="20" data-offset-bottom="200" style="background: #ffffff"></div>
+    <div id="timu" data-bind="html: fixUrl(body.und[0].value)" data-spy="affix" data-offset-top="100" data-offset-bottom="200" style="background: #ffffff"></div>
     </div>
     <h3 class="page-header">小题</h3>
     <div data-bind="foreach: gct2014Model.xiaoti.slice(0, gct2014Model.xiaotiCnt)">
